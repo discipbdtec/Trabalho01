@@ -29,7 +29,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 ####5.1 Validação do Modelo Conceitual
     Consultório Odontológico: Weber Gonçalves.
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    Jogos Indie: Gustavo de Assis e Victor Martins
 
 ####5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
