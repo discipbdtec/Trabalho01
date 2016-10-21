@@ -25,7 +25,8 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Conc_Academia.jpg?raw=true "Modelo Conceitual")
     
-    5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+    5.2 NOTACAO UML
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/UML_Academia.jpg?raw=true "Modelo Lógico")
 
 ####5.1 Validação do Modelo Conceitual
     Consultório Odontológico: Weber Gonçalves.
