@@ -49,6 +49,8 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 
 ###6	MODELO LÓGICO<br>
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Logico_Academia.jpg?raw=true "Modelo Lógico")
+
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
