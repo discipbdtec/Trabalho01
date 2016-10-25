@@ -10,7 +10,7 @@ George Matheus e Matheus Costa<br>
 Este documento contém a especificação do projeto do banco de dados <academia do projeto> e motivação da escolha realizada. <br>
 
 ###3	MINI-MUNDO<br>
-Foi solicitado um sistema para uma academia, pois o sistema que eles utilizam está desatualizado, lento e com muitas falhas, a academia também não tem um bom controle de pagamento pois o sistema nao avisa quando uma pessoa deveria pagar e nem da uma forma de feedback pro aluno ou professor, seja para professores que não sabem ao certo quando pagamento, quanto para alunos, tendo sempre que ir olhar nas fichas e na maioria das vezes gerando atrasos. A academia ainda conta com um sistema de ficar imprimindo as séries de exercício em folhas de papel, o que gera um gasto desnecessário de folhas, pois com frequência o aluno acaba perdendo a folha e tendo sempre que imprimir novamente.
+Foi solicitado um sistema para uma academia, pois o sistema que deles estava desatualizado, lento e com muitas falhas, a academia também não tem um bom controle de pagamento pois o sistema nao avisa quando uma pessoa deveria pagar e nem da uma forma de feedback pro aluno ou professor, seja para professores que não sabem ao certo quando pagamento, quanto para alunos, tendo sempre que ir olhar nas fichas e na maioria das vezes gerando atrasos. A academia ainda conta com um sistema de ficar imprimindo as séries de exercício em folhas de papel, o que gera um gasto desnecessário de folhas, pois com frequência o aluno acaba perdendo a folha e tendo sempre que imprimir novamente.
 O sistema planejado promete centralizar e organizar todas essas funções, o usuário poderá de sua casa se cadastrar na academia, e lá ele poderá acompanhar seu desenvolvimento, sua série de exercícios, o dia do seu pagamento, horários de funcionamento e etc. Professores poderão ver os seus horários, uma lista de todos os alunos matriculados na academia, dia de pagamento e edição de desenvolvimento de alunos para um melhor acompanhamento e melhor desempenho e melhores resultados. Já o dono da academia tem acesso a dias de pagamentos de ambos (tanto professores, quanto alunos), desenvolvimentos de alunos, pessoas matriculadas, para um melhor controle do seu negócio.  <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -26,7 +26,6 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Conc_Academia.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/UML%20-%20Academia.jpg?raw=true "Modelo Conceitual")
 
 
 ####5.1 Validação do Modelo Conceitual
@@ -34,20 +33,46 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
     Jogos Indie: Gustavo de Assis e Victor Martins
 
 ####5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
+    a) Endereço: fizemos de endereço um campo multivalorado, para ter mais organização nas tabelas.<br>
+    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem.<br>
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    
 
 ####5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
+    a)Nome do site: guardara o nome do site no caso todos 
+    seram da academia, para que nãp haja plagio de outras empresas.
+    b)link do site: guardamos o link do site como chave primaria
+    pois e esse link é unico, e para termos salvo em um lugar seguro.
+    c)Logo_Site: Guardamos aqui o link das imagens e logos correpondentes a cada pagina
+    do site e com isso temos a imagem segura no banco de dados.
+    d)Nome Completo Aluno/Professor: dado cadastral do aluno
+    nescessario para identificação do individuo, é solicitado pela academia.
+    e)Data Nascimento Aluno/Professor: dado cadastral 
+    nescessario para saber a idade do individuo, é solicitado pela academia.
+    f)Sexo Aluno/Professor: dado cadastral nescessario para saber o sexo
+    do individuo, é solicitado pela academia.
+    g)CPF Aluno/Professor/Gerente: dado cadastral nescessario para identificar
+    o individuo, é solicitado pela academia.
+    h)Nome_Usuario Aluno/Professor: dado cadastral nescessario para login no site
+    e para que o individuo tenha acesso ao seu perfil.
+    i)Senha Aluno/Professor: dado cadastral nescessario para login no site
+    e para que o individuo tenha acesso ao seu perfil.
+    j)Email Aluno/Professor: dado cadastral solicitado no cadastro pela academia.
+    j)MatAluno: Identificação do aluno da academia.
+    k)MatProf: Identificação do Professor da academia.
+    l)Contato: contato extra para facilitar o contato com o aluno.
+    m)AlturaAluno: campo que vai guardar a altura do aluno.
+    n)PesoAluno: campo que vai guardar a peso do aluno.
+    o)MatGerente: Identificação do Gerente da academia.
+    p)NomeGerente: Campo que guarda o nome do gerente.
+    q)CNPJ: Campo que Identifica a Academia
+    r)Site_Academia: tabela nescessaria para identificação do site e cada pagina do site.
+    s)Aluno: tabela nescessaria para identificação do aluno.
+    t)Gerente: tabela nescessaria para identificação do Gerente.
+    u)Professor: tabela nescessaria para identificação do Professor.
+    v)Desenvolvimento: tabela nescessaria guardar o desenvolvimento do aluno.
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    
 
 ###6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Logico_Academia.jpg?raw=true "Modelo Lógico")
