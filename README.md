@@ -26,7 +26,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Conc_Academia.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML
-
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/UML%20-%20Academia.jpg?raw=true "Notação UML")
 
 ####5.1 Validação do Modelo Conceitual
     Consultório Odontológico: Weber Gonçalves.
@@ -78,6 +78,90 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Logico_Academia.jpg?raw=true "Modelo Lógico")
 
 ###7	MODELO FÍSICO<br>
+
+-- Geração de Modelo físico
+-- Sql ANSI 2003 - brModelo.
+
+
+
+CREATE TABLE Gerente (
+MatGerente Varchar(20) PRIMARY KEY,
+NomeGerente Varchar(40),
+CPF Int,
+CNPJ Int,
+LinkSite Varchar(40)
+)
+
+CREATE TABLE Professor (
+Nome_Usuario Varchar(20),
+Senha Varchar(20),
+Email Varchar(40),
+MatProf Varchar(20) PRIMARY KEY,
+Contato Varchar(40),
+Contato 1 Varchar(40),
+Contato 2 Varchar(40),
+Contato 3 Varchar(40),
+ Contato 4 Varchar(40),
+Nome Completo Varchar(60),
+Data Nascimento Date,
+Sexo Char,
+CPF Int,
+Rua Varchar(40),
+Número int,
+CEP Int,
+Cidade Varchar(20),
+Estado Varchar(20),
+Bairro Varchar(30),
+LinkSite Varchar(40),
+MatGerente Varchar(20),
+FOREIGN KEY(MatGerente) REFERENCES Gerente (MatGerente)
+)
+
+CREATE TABLE Aluno (
+Nome Completo Varchar(40),
+MatAluno Varchar(20) PRIMARY KEY,
+Nome_Usuario Varchar(20),
+Email Varchar(40),
+Senha Varchar(20),
+CEP Int,
+Cidade Varchar(30),
+Estado Varchar(30),
+Bairro Varchar(30),
+Número Int,
+Rua Varchar(40),
+Data Nascimento Date,
+Sexo Char,
+CPF Int,
+Contato Varchar(40),
+Contato 1 Varchar(40),
+Contato 2 Varchar(40),
+Contato 3 Varchar(40),
+Contato 4 Varchar(40),
+LinkSite Varchar(40)
+)
+
+CREATE TABLE Site_Academia (
+Logo_Site Varchar(40),
+Nome_Site Varchar(40),
+LinkSite Varchar(40) PRIMARY KEY
+)
+
+CREATE TABLE Desenvolvimento (
+AlturaAluno Float,
+PesoAluno Float,
+MatAluno Varchar(20),
+MatProf Varchar(20),
+LinkSite Varchar(40),
+FOREIGN KEY(MatAluno) REFERENCES Aluno (MatAluno),
+FOREIGN KEY(MatProf) REFERENCES Professor (MatProf),
+FOREIGN KEY(LinkSite) REFERENCES Site_Academia (LinkSite)
+)
+
+ALTER TABLE Gerente ADD FOREIGN KEY(LinkSite) REFERENCES Site_Academia (LinkSite)
+ALTER TABLE Professor ADD FOREIGN KEY(LinkSite) REFERENCES Site_Academia (LinkSite)
+ALTER TABLE Aluno ADD FOREIGN KEY(LinkSite) REFERENCES Site_Academia (LinkSite)
+
+
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
