@@ -4,10 +4,12 @@ Trabalho desenvolvido durante a disciplina de BD
 #Sumário
 
 ###1	COMPONENTES<br>
-Integrantes do grupo<br>
+Gustavo de Assis Medeiros<br>
+Victor da Silva Martins<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Neste documento apresentamos um projeto de site, no qual estaremos realizando a amostra de jogos indie, jogos de criação independente, onde os usuários padrões poderam visualizar os jogos e os desenvolvedores de jogos poderam publicar seus jogos.<br>
+Tivemos por motivação nosso gosto pessoal por tais tipos de jogos e nosso interesse em possuir um meio onde pudéssemos encontrar de forma organizada tais jogos.<br>
 
 ###3	MINI-MUNDO<br>
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
