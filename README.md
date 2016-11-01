@@ -24,7 +24,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/novo/Sem%20t%C3%ADtulo.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Terminado%20modelo.brM?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
