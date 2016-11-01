@@ -16,9 +16,7 @@ O sistema planejado promete centralizar e organizar todas essas funções, o usu
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-
-
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf?raw=true "Title")
+https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
 
 
 ###5	MODELO CONCEITUAL<br>
