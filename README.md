@@ -37,39 +37,46 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
     
 
 ####5.3 DESCRIÇÃO DOS DADOS 
-    a)Nome do site: guardara o nome do site no caso todos 
-    seram da academia, para que nãp haja plagio de outras empresas.
-    b)link do site: guardamos o link do site como chave primaria
-    pois e esse link é unico, e para termos salvo em um lugar seguro.
-    c)Logo_Site: Guardamos aqui o link das imagens e logos correpondentes a cada pagina
-    do site e com isso temos a imagem segura no banco de dados.
-    d)Nome Completo Aluno/Professor: dado cadastral do aluno
-    nescessario para identificação do individuo, é solicitado pela academia.
-    e)Data Nascimento Aluno/Professor: dado cadastral 
-    nescessario para saber a idade do individuo, é solicitado pela academia.
-    f)Sexo Aluno/Professor: dado cadastral nescessario para saber o sexo
-    do individuo, é solicitado pela academia.
-    g)CPF Aluno/Professor/Gerente: dado cadastral nescessario para identificar
-    o individuo, é solicitado pela academia.
-    h)Nome_Usuario Aluno/Professor: dado cadastral nescessario para login no site
-    e para que o individuo tenha acesso ao seu perfil.
-    i)Senha Aluno/Professor: dado cadastral nescessario para login no site
-    e para que o individuo tenha acesso ao seu perfil.
-    j)Email Aluno/Professor: dado cadastral solicitado no cadastro pela academia.
-    j)MatAluno: Identificação do aluno da academia.
-    k)MatProf: Identificação do Professor da academia.
-    l)Contato: contato extra para facilitar o contato com o aluno.
-    m)AlturaAluno: campo que vai guardar a altura do aluno.
-    n)PesoAluno: campo que vai guardar a peso do aluno.
-    o)MatGerente: Identificação do Gerente da academia.
-    p)NomeGerente: Campo que guarda o nome do gerente.
-    q)CNPJ: Campo que Identifica a Academia
-    r)Site_Academia: tabela nescessaria para identificação do site e cada pagina do site.
-    s)Aluno: tabela nescessaria para identificação do aluno.
-    t)Gerente: tabela nescessaria para identificação do Gerente.
-    u)Professor: tabela nescessaria para identificação do Professor.
-    v)Desenvolvimento: tabela nescessaria guardar o desenvolvimento do aluno.
-    
+    1)Site Academia: tabela nescessaria para identificação do site e cada pagina do site.
+        a)Nome do site: guardara o nome do site no caso todos 
+        seram da academia, para que nãp haja plagio de outras empresas.
+        b)link do site: guardamos o link do site como chave primaria
+        pois e esse link é unico, e para termos salvo em um lugar seguro.
+        c)Logo_Site: Guardamos aqui o link das imagens e logos correpondentes a cada pagina
+        do site e com isso temos a imagem segura no banco de dados.
+    2)Usuario:
+        a)Matricula: Identificação do individuo no banco de dados da academia.
+        b)Nome Completo: dado cadastral do aluno
+        nescessario para identificação do individuo, é solicitado pela academia.
+        c)Data Nascimento: dado cadastral 
+        nescessario para saber a idade do individuo, é solicitado pela academia.
+        d)Sexo: dado cadastral nescessario para saber o sexo
+        do individuo, é solicitado pela academia.
+        e)CPF: dado cadastral nescessario para identificar
+        o individuo, é solicitado pela academia.
+        f)Nome_Usuario: dado cadastral nescessario para login no site
+        e para que o individuo tenha acesso ao seu perfil.
+        g)Senha: dado cadastral nescessario para login no site
+        e para que o individuo tenha acesso ao seu perfil.
+        h)Email: dado cadastral solicitado no cadastro pela academia.
+        i)Contato: um campo multivalorado no caso do aluno ter contatos extras para facilitar a comunicação.
+        j)Endereço: campo multivalorado que vai guardar o endereço completo da pessoa CEP, Estado
+        Cidade, Bairro, Rua, Numero.
+    3)Gerente: tabela nescessaria para identificação do Gerente.
+        a)Matricula_Gerente: Referencia a Matricula da tabela usuario e identifica o Gerente.
+        b)CNPJ: Campo que Identifica a empresa da Academia
+    4)Aluno: tabela nescessaria para identificação do aluno.
+        a)Matricula_Aluno: Referencia a Matricula da tabela usuario e identifica o Aluno.
+        b)Data_Pagamento: Guardara o dia em que o aluno devera pagar sua mensalidade.
+        c)Data_Inicio: Guardara o data no dia em que o aluno se cadastrou no site da academia
+        d)Formas_de_Pagamento: a forma em que o aluno deseja pagar seja cheque, cartao, dinheiro, etc.
+    5)Professor: tabela nescessaria para identificação do Professor.
+        a)Matricula_Professor: Referencia a Matricula da tabela usuario e identifica o Professor.
+        b)Turno: Guarda o Turno em que o Professor trabalha, seja, de manhã, de tarde ou de noite.
+        c)Salario: Vai Guardar o salario que o professor vai Receber no dia do pagamento.
+    6)Acompanha: se tornara uma tabela nescessaria para guardar o desenvolvimento do aluno sua altura e peso.
+        a)Altura: campo que vai guardar a altura do aluno.
+        b)Peso: campo que vai guardar a peso do aluno.
     
 
 ###6	MODELO LÓGICO<br>
