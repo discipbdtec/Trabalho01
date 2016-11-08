@@ -53,11 +53,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     Genero: genero(s) ao(s) qual(is) o jogo pertence.
 
 ####5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Nas tabelas Pessoa, Desenvolvedor e Usuario:
+        Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf.
+    Senha e Nick.
+    Informações especificas de cada jogo: data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
 
 
 ###6	MODELO LÓGICO<br>
