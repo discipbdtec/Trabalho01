@@ -45,12 +45,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     [Grupo02]: [Matheus Santos, George Matheus]
 
 ####5.2 DECISÕES DE PROJETO
-    Pessoa: um campo no qual de dividem mais dois, e possuim por atributos nome, contatos e cpf dos usuarios. <br>
-    Usuario: um identificador que validará suas permições. <br>
-    Desenvolvedor: um identificador que validará suas permições. <br>
-    Log in: usuario e senha para validar a entrada. <br>
-    Jogo: nome do jogo e suas informações relevantes. <br>
-    Genero: genero(s) ao(s) qual(is) o jogo pertence. <br>
+    Pessoa: um campo no qual de dividem mais dois, e possuim por atributos nome, contatos e cpf dos usuarios.
+    Usuario: um identificador que validará suas permições.
+    Desenvolvedor: um identificador que validará suas permições.
+    Log in: usuario e senha para validar a entrada.
+    Jogo: nome do jogo e suas informações relevantes.
+    Genero: genero(s) ao(s) qual(is) o jogo pertence.
 
 ####5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
