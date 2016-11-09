@@ -60,8 +60,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ###6	MODELO LÓGICO<br>
-    
-    ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/logico.jpg?raw=true "Modelo Logico")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/logico.jpg?raw=true "Modelo Logico")
     
 ###7	MODELO FÍSICO<br>
     create database indgames;
