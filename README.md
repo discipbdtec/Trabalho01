@@ -84,7 +84,7 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Logico_Academia.jpg?raw=true "Modelo Lógico")
 
 ###7	MODELO FÍSICO<br>
-https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD.sql
+https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 
 
 
