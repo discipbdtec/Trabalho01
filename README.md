@@ -103,6 +103,34 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
+
+#####SCRIPT CONSULTAS
+https://github.com/MRMaken/Trabalho01/blob/master/GAP_Consultas_9.1.sql
+
+#####TABELA SITE
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_site.jpg?raw=true "Tabela Site")
+
+#####TABELA USUARIO
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_usuario.jpg?raw=true "Tabela Usuário")
+
+#####TABELA GERENTE
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_gerente.jpg?raw=true "Tabela Gerente")
+
+#####TABELA ALUNO
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_aluno.jpg?raw=true "Tabela Aluno")
+
+#####TABELA PROFESSOR
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_Professor.jpg?raw=true "Tabela Professor")
+
+#####TABELA CONTATO DOS USUARIOS
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_contato.jpg?raw=true "Contato")
+
+#####TABELA ACOMPANHAMENTO DESENVOLVIMENTO
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_acompanha.jpg?raw=true "Tabela Acompanha")
+
+#####TABELA FORMAS PAGAMENTO DO ALUNO
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_Fpagamento.jpg?raw=true "Tabela Formas de Pagamento")
+
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
