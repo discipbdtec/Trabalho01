@@ -39,7 +39,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/modelo%20conceitual.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-[Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/BD.jpg?raw=true "Modelo UML")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/BD.jpg?raw=true "Modelo UML")
 ####5.1 Validação do Modelo Conceitual
     [Grupo01]: [Estêvão Segatto, Matheus Lopes]
     [Grupo02]: [Matheus Santos, George Matheus]
