@@ -66,92 +66,107 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     create database indgames;
     use indgames;
 
-    CREATE TABLE genero(
-    descriçcao VARCHAR(50),
-    id_genero VARCHAR(100) PRIMARY KEY);
+    CREATE TABLE Login(
+    Senha VARCHAR(100),
+    Nick VARCHAR(100),
+    id_login VARCHAR(100)PRIMARY KEY);
 
-    CREATE TABLE login(
-    senha VARCHAR(50),
-    nick varchar(50),
-    id_login varchar(100) primary key);
-
-    create table pessoa(
-    nome varchar (50),
-    id_tipo varchar(100) Primary key,
-    CPF varchar(11));
-
-    create table contato(
-    contado_pk integer primary key,
-    tipo varchar(100),
-    descricao varchar (100),
-    cod_tipo varchar (100),
-    id_tipo_fk varchar (100));
-
-    create table jogo(
-    requisitos_de_Sistema varchar(100),
-    datas varchar(100),
-    id_jogo varchar(100) Primary key,
-    nome varchar(100),
-    link_do_jogo varchar(1000),
-    tralier varchar(1000),
-    descriçao varchar(1000),
-    capa varchar(1000),
-    preco varchar(100));
-
-    create table Desenvolvendor(
-    id_desenvolvedor varchar(100) PRIMARY KEY,
+    CREATE TABLE Pessoa(
+    Nome VARCHAR(100),
+    CPF VARCHAR(100),
+    Nick VARCHAR(100),
+    País VARCHAR(100),
+    Municipio VARCHAR(100),
+    Cep VARCHAR(100),
+    Estado VARCHAR(100),
+    Cidade VARCHAR(100),
     id_tipo VARCHAR(100),
-    id_login varchar(100),
-    foreign key (id_login) references login(id_login),
-    foreign key (id_tipo) references pessoa(id_tipo));
+    Senha VARCHAR(100),
+    id_tipo VARCHAR(100)PRIMARY KEY,
+    foreign key (id_login) references login(id_login);
 
-    create table usuario(
-    id_user varchar(100) primary key,
-    id_tipo varchar(100),
-    id_login varchar(100),
-    foreign key (id_login) references login(id_login),
-    foreign key (id_tipo) references pessoa(id_tipo));
+    CREATE TABLE genero (
+    descricao VARCHAR(100),
+    id_genero VARCHAR(100) PRIMARY KEY
+    );
 
-    CREATE TABLE contem (
-    id_genero VARCHAR(10),
-    id_jogo VARCHAR(10),
-    FOREIGN KEY(id_genero) REFERENCES genero (id_genero),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo));
+    CREATE TABLE Desenvolvedor (
+    Nome_Desenvolverdor VARCHAR(100),
+    id_desenvolvedor VARCHAR(100) PRIMARY KEY,
+    id_tipo VARCHAR(100),
+    id_login VARCHAR(100),
+    FOREIGN KEY (id_login) REFERENCES Login(id_login),
+    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo));
 
-    CREATE TABLE Usuario_Avaliaçao (
-    Avaliaçao VARCHAR(10),
-    id_login VARCHAR(10),
-    id_tipo VARCHAR(10),
-    id_jogo VARCHAR(10),
-    foreign key (id_login) references login(id_login),
-    foreign key (id_tipo) references pessoa(id_tipo),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo));
+    CREATE TABLE Usuario (
+    id_user VARCHAR(100) PRIMARY KEY,
+    id_tipo VARCHAR(100),
+    id_login VARCHAR(100),
+    FOREIGN KEY (id_login) REFERENCES Login(id_login),
+    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo));
 
-    CREATE TABLE Usuario_Comentario (
-    Comentario VARCHAR(10),
-    id_login VARCHAR(10),
-    id_tipo VARCHAR(10),
-    id_jogo VARCHAR(10),
-    foreign key (id_login) references login(id_login),
-    foreign key (id_tipo) references pessoa(id_tipo),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo));
 
-    CREATE TABLE Pertence (
-    id_desenvolvedor VARCHAR(10),
-    id_jogo VARCHAR(10),
-    FOREIGN KEY(id_desenvolvedor) REFERENCES Desenvolvedor (id_desenvolvedor),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
+    CREATE TABLE Jogo (
+    Requisitos de Sistema VARCHAR(100),
+    Data VARCHAR(100),
+    id_jogo VARCHAR(100) PRIMARY KEY,
+    Nome VARCHAR(100),
+    Link do Jogo VARCHAR(100),
+    Trailer VARCHAR(100),
+    Descrição VARCHAR(100),
+    Capa VARCHAR(100),
+    Preço VARCHAR(100),
+    id_genero VARCHAR(100)
+    FOREIGN KEY (id_genero)REFERENCES genero(id_genero));
+
+    CREATE TABLE Contato (
+    Contato_PK INTEGER PRIMARY KEY,
+    Tipo VARCHAR(100),
+    Descricao VARCHAR(100),
+    Cod_tipo VARCHAR(100),
+    id_tipo_FK VARCHAR(100)
     );
 
     CREATE TABLE Visualizou (
-    id_jogo VARCHAR(10),
-    id_login VARCHAR(10),
-    id_tipo VARCHAR(10),
-    foreign key (id_login) references login(id_login),
-    foreign key (id_tipo) references pessoa(id_tipo),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo));
+    id_login VARCHAR(100),
+    id_jogo VARCHAR(100),
+    id_tipo VARCHAR(100),
+    FOREIGN KEY (id_login) REFERENCES Login(id_login),
+    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
+
+    CREATE TABLE contem (
+    id_genero VARCHAR(100),
+    id_jogo VARCHAR(100),
+    FOREIGN KEY(id_genero) REFERENCES genero (id_genero),
+    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
+    );
+
+    CREATE TABLE Usuario_Avaliaçao (
+    Avaliaçao VARCHAR(100),
+    id_login VARCHAR(100),
+    id_tipo VARCHAR(100),
+    id_jogo VARCHAR(100),
+    FOREIGN KEY (id_login) REFERENCES Login(id_login),
+    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
 
 
+    CREATE TABLE Usuario_Comentario (
+    Comentario VARCHAR(100),
+    id_login VARCHAR(100),
+    id_tipo VARCHAR(100),
+    id_jogo VARCHAR(100),
+    FOREIGN KEY (id_login) REFERENCES Login(id_login),
+    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
+
+    CREATE TABLE Pertence (
+    id_desenvolvedor VARCHAR(100),
+    id_jogo VARCHAR(100),
+    FOREIGN KEY(id_desenvolvedor) REFERENCES Desenvolvedor (id_desenvolvedor),
+    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
+    );
 
         
         
