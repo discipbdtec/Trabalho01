@@ -80,10 +80,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     Cep VARCHAR(100),
     Estado VARCHAR(100),
     Cidade VARCHAR(100),
-    id_tipo VARCHAR(100),
+    id_login VARCHAR(100),
     Senha VARCHAR(100),
     id_tipo VARCHAR(100)PRIMARY KEY,
-    foreign key (id_login) references login(id_login);
+    foreign key (id_login) references login(id_login));
 
     CREATE TABLE genero (
     descricao VARCHAR(100),
@@ -107,17 +107,17 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
     CREATE TABLE Jogo (
-    Requisitos de Sistema VARCHAR(100),
+    Requisitos_de_Sistema VARCHAR(100),
     Data VARCHAR(100),
     id_jogo VARCHAR(100) PRIMARY KEY,
     Nome VARCHAR(100),
-    Link do Jogo VARCHAR(100),
+    Link_do_Jogo VARCHAR(100),
     Trailer VARCHAR(100),
     Descrição VARCHAR(100),
     Capa VARCHAR(100),
     Preço VARCHAR(100),
-    id_genero VARCHAR(100)
-    FOREIGN KEY (id_genero)REFERENCES genero(id_genero));
+    id_genero VARCHAR(100),
+    FOREIGN KEY (id_genero) REFERENCES genero(id_genero));
 
     CREATE TABLE Contato (
     Contato_PK INTEGER PRIMARY KEY,
@@ -168,7 +168,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
     );
 
-        
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
