@@ -178,7 +178,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         c) Basicamento estudos realizados nas aulas de Banco de Dados.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        https://raw.github.com/gustavovictor/Trabalho01/blob/patch-1/Insert.sql
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Insert.sql?raw=true "Insert")
+
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
