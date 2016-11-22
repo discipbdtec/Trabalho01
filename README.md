@@ -173,14 +173,127 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        a) Geramos dados apartir de jogos de nosso conhecimento, uma vez que possuimos forte envolvimento na área, como jogadores.
+        b) Não houve reutilização de códigos.
+        c) Basicamento estudos realizados nas aulas de Banco de Dados.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
+            create database indgames;
+            use indgames;
+
+            CREATE TABLE Login(
+                Senha VARCHAR(100),
+                Nick VARCHAR(100),
+                id_login VARCHAR(100)PRIMARY KEY
+                );
+
+            CREATE TABLE Pessoa(
+                Nome VARCHAR(100),
+                CPF VARCHAR(100),
+                Nick VARCHAR(100),
+                País VARCHAR(100),
+                Municipio VARCHAR(100),
+                Cep VARCHAR(100),
+                Estado VARCHAR(100),
+                Cidade VARCHAR(100),
+                id_login VARCHAR(100),
+                Senha VARCHAR(100),
+                id_tipo VARCHAR(100)PRIMARY KEY,
+                foreign key (id_login) references login(id_login)
+                );
+
+            CREATE TABLE genero (
+                descricao VARCHAR(100),
+                id_genero VARCHAR(100) PRIMARY KEY
+                );
+
+            CREATE TABLE Desenvolvedor (
+                Nome_Desenvolverdor VARCHAR(100),
+                id_desenvolvedor VARCHAR(100) PRIMARY KEY,
+                id_tipo VARCHAR(100),
+                id_login VARCHAR(100),
+                FOREIGN KEY (id_login) REFERENCES Login(id_login),
+                FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo)
+                );
+
+            CREATE TABLE Usuario (
+                id_user VARCHAR(100) PRIMARY KEY,
+                id_tipo VARCHAR(100),
+                id_login VARCHAR(100),
+                FOREIGN KEY (id_login) REFERENCES Login(id_login),
+                FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo)
+                );
+
+            CREATE TABLE Jogo (
+                Requisitos_de_Sistema VARCHAR(100),
+                Data VARCHAR(100),
+                id_jogo VARCHAR(100) PRIMARY KEY,
+                Nome VARCHAR(100),
+                Link_do_Jogo VARCHAR(100),
+                Trailer VARCHAR(100),
+                Descrição VARCHAR(100),
+                Capa VARCHAR(100),
+                Preço VARCHAR(100),
+                id_genero VARCHAR(100),
+                FOREIGN KEY (id_genero) REFERENCES genero(id_genero)
+                );
+
+            CREATE TABLE Contato (
+                Contato_PK INTEGER PRIMARY KEY,
+                Tipo VARCHAR(100),
+                Descricao VARCHAR(100),
+                Cod_tipo VARCHAR(100),
+                id_tipo_FK VARCHAR(100)
+                );
+
+            CREATE TABLE Visualizou (
+                id_login VARCHAR(100),
+                id_jogo VARCHAR(100),
+                id_tipo VARCHAR(100),
+                FOREIGN KEY (id_login) REFERENCES Login(id_login),
+                FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+                FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo)
+                );
+
+            CREATE TABLE contem (
+                id_genero VARCHAR(100),
+                id_jogo VARCHAR(100),
+                FOREIGN KEY(id_genero) REFERENCES genero (id_genero),
+                FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
+                );
+
+            CREATE TABLE Usuario_Avaliaçao (
+                Avaliaçao VARCHAR(100),
+                id_login VARCHAR(100),
+                id_tipo VARCHAR(100),
+                id_jogo VARCHAR(100),
+                FOREIGN KEY (id_login) REFERENCES Login(id_login),
+                FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+                FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo)
+                );
+
+
+            CREATE TABLE Usuario_Comentario (
+                Comentario VARCHAR(100),
+                id_login VARCHAR(100),
+                id_tipo VARCHAR(100),
+                id_jogo VARCHAR(100),
+                FOREIGN KEY (id_login) REFERENCES Login(id_login),
+                FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
+                FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo)
+                );
+
+            CREATE TABLE Pertence (
+                id_desenvolvedor VARCHAR(100),
+                id_jogo VARCHAR(100),
+                FOREIGN KEY(id_desenvolvedor) REFERENCES Desenvolvedor (id_desenvolvedor),
+                FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
+                );
+            
         b) inclusão das instruções de inserção dos dados nas referidas tabelas
         c) inclusão das instruções para execução de outros procedimentos necessários
+            CREATE VIEW
 
 
         Entrega até este ponto em 01/11/2016
