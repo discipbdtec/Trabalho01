@@ -10,6 +10,11 @@ Link_Site VARCHAR(50),
 Logo_Site VARCHAR(40)
 )default charset = utf8;
 
+CREATE TABLE Pacote_Academia(
+Tipo int not null auto_increment primary key,
+Valor_Pacote float
+)default charset = utf8;
+
 CREATE TABLE Usuario(
 Matricula INTEGER PRIMARY KEY not null auto_increment,
 Nome_Completo VARCHAR(50) not null,
@@ -34,7 +39,9 @@ FOREIGN KEY(Cod_Site) REFERENCES Site_Academia (Cod_Site)
 CREATE TABLE Aluno (
 Matricula_Aluno INTEGER PRIMARY KEY,
 Data_inicio date,
-FOREIGN KEY(Matricula_Aluno) REFERENCES Usuario (Matricula)
+Tipo_Pacote int,
+FOREIGN KEY(Matricula_Aluno) REFERENCES Usuario (Matricula),
+FOREIGN KEY(Tipo_Pacote) REFERENCES Pacote_Academia (Tipo)
 )default charset = utf8;
 
 
@@ -47,13 +54,19 @@ FOREIGN KEY(Matricula_Professor) REFERENCES Usuario (Matricula),
 FOREIGN KEY(Matricula_Gerente) REFERENCES Gerente (Matricula_Gerente)
 )default charset = utf8;
 
-CREATE TABLE Contato (
+CREATE TABLE Contato(
+Cod_Contato int not null auto_increment primary key,
+Contato varchar(30)
+)default charset = utf8;
+
+
+CREATE TABLE Contato_Usuario(
+Cod_Contato int not null auto_increment primary key,
+Tipo_Contato int,
 Matricula_Usuario int not null,
-Tipo_Contato INTEGER NOT NULL,
-Forma_Contato VARCHAR(30),
-Contato VARCHAR(30),
+Contato_Usuario VARCHAR(30),
 FOREIGN KEY(Matricula_Usuario) REFERENCES Usuario (Matricula),
-constraint pk_CE primary key(Matricula_Usuario,Tipo_Contato)
+FOREIGN KEY(Tipo_Contato) REFERENCES Contato(Cod_Contato)
 )default charset = utf8;
 
 CREATE TABLE Endereco(
@@ -67,13 +80,20 @@ Numero INTEGER,
 FOREIGN KEY(Matricula_Usuario) REFERENCES Usuario (Matricula)
 ) default charset = utf8;
 
-CREATE TABLE Formas_de_Pagamento (
-Tipo INTEGER,
-Forma_Pagamento VARCHAR(30),
+CREATE TABLE Tipo_Pagamento (
+Cod_Tipo int not null auto_increment primary key,
+Forma_Pagamento varchar(30)
+)default charset = utf8;
+
+CREATE TABLE Pagamento_Aluno(
+Cod_Pagamento int not null auto_increment primary key,
+Tipo_Pagamento int,
+Valor_Pagamento float,
 Matricula_Aluno INTEGER,
 FOREIGN KEY(Matricula_Aluno) REFERENCES Aluno (Matricula_Aluno),
-constraint pk_CE primary key(Tipo, Matricula_Aluno)
+FOREIGN KEY(Tipo_Pagamento) REFERENCES Tipo_Pagamento(Cod_Tipo)
 )default charset = utf8;
+
 
 CREATE TABLE Acompanha  (
 Matricula_Professor INTEGER,
