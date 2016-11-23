@@ -136,6 +136,18 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_Consultas_9.1.sql
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_Fpagamento.jpg?raw=true "Tabela Formas de Pagamento")
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201.jpg?raw=true "Consulta 1")
+Selecionando nome, data de nascimento e CPF de usuario aonde a data de nascimento é maior que 01/05/1994
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2.jpg?raw=true "Consulta 2")
+Selecionando a Matricula do aluno da tabela pagamento_aluno, aonde o valor de pagamento é maior que 60 reais
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3.jpg?raw=true "Consulta 3")
+Selecionando todos os dados somente dos alunos que moram no Espirirto Santo
+
+Script comandos
+https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
+
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
