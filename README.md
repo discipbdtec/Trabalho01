@@ -63,8 +63,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_LBD.jpg?raw=true "Modelo Logico")
     
 ###7	MODELO FÍSICO<br>
-    create database indgames;
-    use indgames;
+    create database indgam;
+    use indgam;
 
     CREATE TABLE Login(
     Senha VARCHAR(100),
