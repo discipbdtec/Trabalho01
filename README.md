@@ -300,7 +300,7 @@ on (usuario_comentario.id_login = pessoa.id_login);<br>
 Select pessoa.id_login, pessoa.id_tipo, nome, cpf
 from pessoa
 left join desenvolvedor
-on (pessoa.id_login = desenvolvedor.id_login);
+on (pessoa.id_login = desenvolvedor.id_login);<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons18.png?raw=true "Title")
 
     
