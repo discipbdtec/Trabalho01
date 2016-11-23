@@ -182,71 +182,97 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
-OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 select * from Login;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/login.png?raw=true "Title")
 
-select * from Pessoa;<br>
+select * <br>
+from Pessoa;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/pessoa.png?raw=true "Title")
 
-select * from Genero;<br>
+select * <br>
+from Genero;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/genero.png?raw=true "Title")
 
-select * from Desenvolvedor;<br>
+select * <br>
+from Desenvolvedor;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/desenvolvedor.png?raw=true "Title")
 
-select * from Usuario;<br>
+select * <br>
+from Usuario;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/usuario.png?raw=true "Title")
 
-select * from Jogo;<br>
+select * <br>
+from Jogo;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/jogo.png?raw=true "Title")
 
-select * from Contato;<br>
+select * <br>
+from Contato;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/contato.png?raw=true "Title")
 
-select * from Visualizou;<br>
+select * <br>
+from Visualizou;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/visualizou.png?raw=true "Title")
 
-select * from Contem;<br>
+select * <br>
+from Contem;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/contem.png?raw=true "Title")
 
-select * from Usuario_Avaliaçao;<br>
+select * <br>
+from Usuario_Avaliaçao;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/usuario_avaliacao.png?raw=true "Title")
 
-select * from Usuario_Comentario;<br>
+select * <br>
+from Usuario_Comentario;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/usuario_comentario.png?raw=true "Title")
 
-select * from Pertence;<br>
+select * <br>
+from Pertence;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/pertence.png?raw=true "Title")
 
     
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
-select data from Jogo where nome = "Undertale";<br>
+select data <br>
+from Jogo <br>
+where nome = "Undertale";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons1.png?raw=true "Title")
 
-select * from Jogo where Link_do_Jogo = null;<br>
+select * <br>
+from Jogo <br>
+where Link_do_Jogo = null;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons2.png?raw=true "Title")
 
-select nome from Pessoa where cidade = "Catalao";<br>
+select nome <br>
+from Pessoa <br>
+where cidade = "Catalao";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons3.png?raw=true "Title")
     
     
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-select requisitos_de_sistema as "Do que voce precisa" from Jogo where preço <= 20;<br>
+select requisitos_de_sistema as "Do que voce precisa" <br>
+from Jogo <br>
+where preço <= 20;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons4.png?raw=true "Title")
 
-select nome,trailer,link_do_jogo,descrição from Jogo where preço < 40;<br>
+select nome,trailer,link_do_jogo,descrição <br>
+from Jogo <br>
+where preço < 40;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons5.png?raw=true "Title")
     
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
-select nome,nick from Pessoa where cidade like "N%";<br>
+select nome,nick <br>
+from Pessoa <br>
+where cidade like "N%";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons6.png?raw=true "Title")
 
-select id_jogo,nome from Jogo where nome like "s%";<br>
+select id_jogo,nome <br>
+from Jogo <br>
+where nome like "s%";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons7.png?raw=true "Title")
 
-select nick from Login where nick like "A%";<br>
+select nick <br>
+from Login <br>
+where nick like "A%";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons8.png?raw=true "Title")
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
@@ -259,23 +285,41 @@ select nick from Login where nick like "A%";<br>
     delete from genero where id_genero = 666;
     
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
-select * from jogo inner join usuario_comentario group by nome;<br>
+select * <br>
+from jogo <br>
+inner join usuario_comentario <br>
+group by nome;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons9.png?raw=true "Title")
     
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-select jogo.id_jogo,nome,requisitos_de_sistema,descrição from jogo inner join usuario_comentario group by jogo.id_jogo;<br>
+select jogo.id_jogo,nome,requisitos_de_sistema,descrição <br>
+from jogo <br>
+inner join usuario_comentario <br>
+group by jogo.id_jogo;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons10.png?raw=true "Title")
     
-select nome from jogo inner join genero group by jogo.id_jogo;<br>
+select nome <br>
+from jogo <br>
+inner join genero <br>
+group by jogo.id_jogo;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons11.png?raw=true "Title")
     
-select nome,pessoa.nick from login inner join pessoa group by cidade;<br>
+select nome,pessoa.nick <br>
+from login <br>
+inner join pessoa <br>
+group by cidade;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons12.png?raw=true "Title")
     
-select usuario_avaliaçao.id_login from usuario_avaliaçao inner join usuario_comentario group by usuario_avaliaçao.id_jogo;<br>
+select usuario_avaliaçao.id_login <br>
+from usuario_avaliaçao <br>
+inner join usuario_comentario <br>
+group by usuario_avaliaçao.id_jogo;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons13.png?raw=true "Title")
     
-select nome,cep from login inner join pessoa group by cep;<br>
+select nome,cep <br>
+from login <br>
+inner join pessoa <br>
+group by cep;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons14.png?raw=true "Title")
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
@@ -305,13 +349,11 @@ on (pessoa.id_login = desenvolvedor.id_login);<br>
 
     
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
-    
-    
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-
-        Entrega final em 22/11/2016
+    Implementação real do que vimos em sua maioria apenas o teórico.
+    
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
