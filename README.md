@@ -178,7 +178,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         c) Basicamento estudos realizados nas aulas de Banco de Dados.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Insert.sql?raw=true "Insert")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Insert.sql "Insert")
 
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
@@ -250,16 +250,17 @@ select nick from Login where nick like "A%";<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons8.png?raw=true "Title")
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-    update jogo set preco = 30 where nome = "heavy metal machine";
+    update jogo set preço = 31 where nome = "undertale";
     update login set senha = "****" where nick = "balerion21";
-    update genero set id_genero = 666 where descricao = "simulacao";
+    update jogo set data = "01/01/2001" where nome = "FEZ";
    
-    delete from jogo where nome = "haevy metal machine";
+    delete from jogo where nome = "heavy metal machine";
     delete from login where nick = "balerion21";
     delete from genero where id_genero = 666;
     
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
-    select * from jogo inner join usuario_comentario;
+select * from jogo inner join usuario_comentario group by nome;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons9.png?raw=true "Title")
     
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
     select * from jogo inner join usuario_comentario group by id_jogo;
