@@ -137,21 +137,23 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_Consultas_9.1.sql
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201_9.2.jpg?raw=true "Consulta 1")
-Selecionando nome, data de nascimento e CPF de usuario aonde a data de nascimento é maior que 01/05/1994
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.2.jpg?raw=true "Consulta 2")
-Selecionando a Matricula do aluno da tabela pagamento_aluno, aonde o valor de pagamento é maior que 60 reais
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.2.jpg?raw=true "Consulta 3")
-Selecionando todos os dados somente dos alunos que moram no Espirirto Santo
+
 
 Script comandos
 https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
-
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1_9.3.jpg?raw=true "Consulta 1")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.3.jpg?raw=true "Consulta 2")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.3.jpg?raw=true "Consulta 3")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta4_9.3.jpg?raw=true "Consulta 4")
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
+
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
