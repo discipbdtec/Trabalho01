@@ -184,13 +184,51 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+    select * from Login;
+    select * from Pessoa;
+    select * from Genero;
+    select * from Desenvolvedor;
+    select * from Usuario;
+    select * from Jogo;
+    select * from Contato;
+    select * from Visualizou;
+    select * from Contem;
+    select * from Usuario_Avaliaçao;
+    select * from Usuario_Comentario;
+    select * from Pertence;
+    
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+    select data from Jogo where nome = "Heavy Metal Machine";
+    select * from Jogo where Link_do_Jogo <> null;
+    select nome from Pessoa where cidade = "Vitoria";
+    
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+    select requisitos_de_sistema as Do que voce precisa from Jogo where preco > 100;
+    select nome,trailer,link_do_jogo,descricao from Jogo where preco < 100;
+    
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+    select * from Pessoa where cidade like "S%";
+    select * from Jogo where cidade like "M%";
+    select nick from Login where cidade like "b%";
+
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+    update jogo set preco = 30 where nome = "heavy metal machine";
+    update login set senha = "****" where nick = "balerion21";
+    update genero set id_genero = 666 where descricao = "simulacao";
+   
+    delete from jogo where nome = "haevy metal machine";
+    delete from login where nick = "balerion21";
+    delete from genero where id_genero = 666;
+    
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+    select * from jogo inner join usuario_comentario;
+    
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em 08/11/2016
+    select * from jogo inner join usuario_comentario group by id_jogo;
+    select nome,descricao.genero from jogo inner join genero group by id_genero;
+    select * from login inner join pessoa group by cidade;
+    select id_login from usuario_avaliacao inner join usuario_comentario group by id_jogo;
+    select nick from login inner join pessoa group by cep;
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
