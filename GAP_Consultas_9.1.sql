@@ -1,10 +1,12 @@
 use gap;
-
 select * from site_academia;
 select * from usuario;
+select * from pacote_academia;
 select * from gerente;
 select * from professor;
 select * from aluno;
 select * from contato;
-select * from formas_de_pagamento;
+select * from contato_usuario;
+select * from tipo_pagamento;
+select * from pagamento_aluno;
 select * from acompanha;
