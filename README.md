@@ -349,7 +349,9 @@ on (pessoa.id_login = desenvolvedor.id_login);<br>
 
     
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
+
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 https://docs.google.com/presentation/d/1035SlDoQEX97g9zJeuX9rxuQA3Kmb38cBpzI4kSAF-o/edit?usp=sharing
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
