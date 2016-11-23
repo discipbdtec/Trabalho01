@@ -231,7 +231,11 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
     select nick from login inner join pessoa group by cep;
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+    
+    
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+    
+    
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
