@@ -149,6 +149,8 @@ Script comandos
 https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
+
+
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 ####9.6	CONSULTAS COM JUNÇÃO<br>
