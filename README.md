@@ -222,13 +222,22 @@ select * from Pertence;<br>
 
     
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
-    select data from Jogo where nome = "Heavy Metal Machine";
-    select * from Jogo where Link_do_Jogo <> null;
-    select nome from Pessoa where cidade = "Vitoria";
+select data from Jogo where nome = "Undertale";<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons1.png?raw=true "Title")
+
+select * from Jogo where Link_do_Jogo = null;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons2.png?raw=true "Title")
+
+select nome from Pessoa where cidade = "Catalao";<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons3.png?raw=true "Title")
+    
     
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-    select requisitos_de_sistema as Do que voce precisa from Jogo where preco > 100;
-    select nome,trailer,link_do_jogo,descricao from Jogo where preco < 100;
+select requisitos_de_sistema as "Do que voce precisa" from Jogo where preço <= 20;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons4.png?raw=true "Title")
+
+select nome,trailer,link_do_jogo,descrição from Jogo where preço < 40;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons5.png?raw=true "Title")
     
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
     select * from Pessoa where cidade like "S%";
