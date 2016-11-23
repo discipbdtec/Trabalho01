@@ -279,27 +279,27 @@ select nome,cep from login inner join pessoa group by cep;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons14.png?raw=true "Title")
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
-Select pessoa.id_login as login_da_pessoa, nome,pessoa.id_tipo
-from pessoa
-Right join desenvolvedor
+Select pessoa.id_login as login_da_pessoa, nome,pessoa.id_tipo<br>
+from pessoa<br>
+Right join desenvolvedor<br>
 on (desenvolvedor.id_tipo = pessoa.id_tipo);<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons15.png?raw=true "Title")   
 
-Select pessoa.id_login as login_da_pessoa, pessoa.id_tipo, nome, cpf
-from pessoa
-Right join desenvolvedor
+Select pessoa.id_login as login_da_pessoa, pessoa.id_tipo, nome, cpf<br>
+from pessoa<br>
+Right join desenvolvedor<br>
 on (desenvolvedor.id_tipo = pessoa.id_tipo);<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons16.png?raw=true "Title")
 
-Select pessoa.nick, pessoa.nome
-from pessoa 
-left join usuario_comentario
+Select pessoa.nick, pessoa.nome<br>
+from pessoa <br>
+left join usuario_comentario<br>
 on (usuario_comentario.id_login = pessoa.id_login);<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons17.png?raw=true "Title")
 
-Select pessoa.id_login, pessoa.id_tipo, nome, cpf
-from pessoa
-left join desenvolvedor
+Select pessoa.id_login, pessoa.id_tipo, nome, cpf<br>
+from pessoa<br>
+left join desenvolvedor<br>
 on (pessoa.id_login = desenvolvedor.id_login);<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons18.png?raw=true "Title")
 
