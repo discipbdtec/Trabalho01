@@ -263,11 +263,20 @@ select * from jogo inner join usuario_comentario group by nome;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons9.png?raw=true "Title")
     
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-    select * from jogo inner join usuario_comentario group by id_jogo;
-    select nome,descricao.genero from jogo inner join genero group by id_genero;
-    select * from login inner join pessoa group by cidade;
-    select id_login from usuario_avaliacao inner join usuario_comentario group by id_jogo;
-    select nick from login inner join pessoa group by cep;
+select jogo.id_jogo,nome,requisitos_de_sistema,descrição from jogo inner join usuario_comentario group by jogo.id_jogo;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons10.png?raw=true "Title")
+    
+select nome from jogo inner join genero group by jogo.id_jogo;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons11.png?raw=true "Title")
+    
+select nome,pessoa.nick from login inner join pessoa group by cidade;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons12.png?raw=true "Title")
+    
+select usuario_avaliaçao.id_login from usuario_avaliaçao inner join usuario_comentario group by usuario_avaliaçao.id_jogo;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons13.png?raw=true "Title")
+    
+select nome,cep from login inner join pessoa group by cep;<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons14.png?raw=true "Title")
         
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
     
