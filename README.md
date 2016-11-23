@@ -240,9 +240,14 @@ select nome,trailer,link_do_jogo,descrição from Jogo where preço < 40;<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons5.png?raw=true "Title")
     
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
-    select * from Pessoa where cidade like "S%";
-    select * from Jogo where cidade like "M%";
-    select nick from Login where cidade like "b%";
+select nome,nick from Pessoa where cidade like "N%";<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons6.png?raw=true "Title")
+
+select id_jogo,nome from Jogo where nome like "s%";<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons7.png?raw=true "Title")
+
+select nick from Login where nick like "A%";<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons8.png?raw=true "Title")
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
     update jogo set preco = 30 where nome = "heavy metal machine";
