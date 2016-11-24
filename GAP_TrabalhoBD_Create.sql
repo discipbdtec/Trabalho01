@@ -3,6 +3,7 @@ default character set utf8
 default collate utf8_general_ci;
 USE GAP;
 
+
 CREATE TABLE Site_Academia (
 Cod_Site INTEGER PRIMARY KEY,
 Nome_Site VARCHAR(40),
@@ -10,10 +11,6 @@ Link_Site VARCHAR(50),
 Logo_Site VARCHAR(40)
 )default charset = utf8;
 
-CREATE TABLE Pacote_Academia(
-Tipo int not null auto_increment primary key,
-Valor_Pacote float
-)default charset = utf8;
 
 CREATE TABLE Usuario(
 Matricula INTEGER PRIMARY KEY not null auto_increment,
@@ -39,9 +36,7 @@ FOREIGN KEY(Cod_Site) REFERENCES Site_Academia (Cod_Site)
 CREATE TABLE Aluno (
 Matricula_Aluno INTEGER PRIMARY KEY,
 Data_inicio date,
-Tipo_Pacote int,
-FOREIGN KEY(Matricula_Aluno) REFERENCES Usuario (Matricula),
-FOREIGN KEY(Tipo_Pacote) REFERENCES Pacote_Academia (Tipo)
+FOREIGN KEY(Matricula_Aluno) REFERENCES Usuario (Matricula)
 )default charset = utf8;
 
 
@@ -104,6 +99,7 @@ FOREIGN KEY(Matricula_Professor) REFERENCES Professor (Matricula_Professor),
 FOREIGN KEY(Matricula_Aluno) REFERENCES Aluno (Matricula_Aluno),
 constraint pk_CE primary key(Matricula_Professor, Matricula_Aluno)
 )default charset = utf8;
+
 
 
 
