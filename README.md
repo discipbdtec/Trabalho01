@@ -31,10 +31,14 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
     Jogos Indie: Gustavo de Assis e Victor Martins
 
 ####5.2 DECISÕES DE PROJETO
-    a) Endereço: fizemos de endereço um campo multivalorado, para ter mais organização nas tabelas<br>
-    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem<br>
-    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno<br>
     
+    a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas. <br>
+    
+    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem. <br>
+    
+    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno. <br>
+    
+    d) Tabela Acompanha: A chave primaria da tabela é uma chave composta, pois precisavamos que dois dados não se               repetissem <br>      
     
 
 ####5.3 DESCRIÇÃO DOS DADOS 
@@ -90,17 +94,7 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        
-        a) obtenção dos dados
-        Os dados usados são ficticios.
-        
-        b) obtenção de códigos reutilizados
-        Não foram usados códigos reutilizados
-        
-        c) fontes de estudo para desenvolvimento do projeto
-        O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
+        Os dados usados são referencias a gosto pessoais da dupla, e não reutilizamos nenhum codigo.O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Insert.sql
