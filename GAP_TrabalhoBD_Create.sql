@@ -77,7 +77,7 @@ FOREIGN KEY(Matricula_Usuario) REFERENCES Usuario (Matricula)
 
 CREATE TABLE Tipo_Pagamento (
 Cod_Tipo int not null auto_increment primary key,
-Forma_Pagamento varchar(30)
+Desc_Pagamento varchar(30)
 )default charset = utf8;
 
 CREATE TABLE Pagamento_Aluno(
@@ -99,8 +99,6 @@ FOREIGN KEY(Matricula_Professor) REFERENCES Professor (Matricula_Professor),
 FOREIGN KEY(Matricula_Aluno) REFERENCES Aluno (Matricula_Aluno),
 constraint pk_CE primary key(Matricula_Professor, Matricula_Aluno)
 )default charset = utf8;
-
-
 
 
 
