@@ -31,9 +31,9 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
     Jogos Indie: Gustavo de Assis e Victor Martins
 
 ####5.2 DECISÕES DE PROJETO
-    a) Endereço: fizemos de endereço um campo multivalorado, para ter mais organização nas tabelas.<br>
-    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem.<br>
-    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.<br>
+    a) Endereço: fizemos de endereço um campo multivalorado, para ter mais organização nas tabelas<br>
+    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem<br>
+    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno<br>
     
     
 
