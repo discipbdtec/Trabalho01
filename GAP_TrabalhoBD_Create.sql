@@ -51,7 +51,7 @@ FOREIGN KEY(Matricula_Gerente) REFERENCES Gerente (Matricula_Gerente)
 
 CREATE TABLE Contato(
 Cod_Contato int not null auto_increment primary key,
-Contato varchar(30)
+Desc_Contato varchar(30)
 )default charset = utf8;
 
 
@@ -99,6 +99,7 @@ FOREIGN KEY(Matricula_Professor) REFERENCES Professor (Matricula_Professor),
 FOREIGN KEY(Matricula_Aluno) REFERENCES Aluno (Matricula_Aluno),
 constraint pk_CE primary key(Matricula_Professor, Matricula_Aluno)
 )default charset = utf8;
+
 
 
 
