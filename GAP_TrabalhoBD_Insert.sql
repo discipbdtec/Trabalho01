@@ -4,7 +4,7 @@ insert into site_academia values (13,'Fabrica de Monstros','www.fabricademonstro
 
 insert into usuario (Nome_Completo,CPF,Sexo, Data_Nascimento,Email,Nome_Usuario,Senha,Cod_Site) values
 ('Arya Stark',1010,'F','1984/08/10','AryaS@gmail.com','AryaS','123',13),
-('JoÃ£o das Neves',2020,'M','1954/08/20','JoaoN@gmail.com','JoaoN','321',13),
+('João das Neves',2020,'M','1954/08/20','JoaoN@gmail.com','JoaoN','321',13),
 ('Marcelo Fulano',3030,'M','1950/05/21','MarceloF@gmail.com','MarceloF','456',13),
 ('Cristiano Neymar',4040,'M','1990/06/30','CristianoN@hotmail.com','CristianoN','654',13),
 ('Cassiano Venenoso',5050,'M','1979/09/09','CassianoV@ig.com.br','CassianoV','789',13),
@@ -14,8 +14,6 @@ insert into usuario (Nome_Completo,CPF,Sexo, Data_Nascimento,Email,Nome_Usuario,
 ('Annie Tibbers',9090,'F','2000/01/01','AnnieT@riot.com','AnnieT','147',13),
 ('Marquinhos Catchau',1011,'M','1996/08/19','MarquinhosC@mcquen.com','MarquinhosC','258',13);
 
-insert into pacote_academia(Valor_Pacote) values
-(65.00),(75.00),(80.00),(100.00);
 
 insert into gerente(Matricula_Gerente,CNPJ,Cod_Site) values
 (1,6300,13);
@@ -25,13 +23,13 @@ insert into professor(Matricula_Professor, Matricula_Gerente, Turno, Salario) va
 (3,1,'Vespertino',1200.00),
 (4,1,'Noturno',1200.00);
 
-insert into aluno(Matricula_Aluno, Data_inicio, Tipo_Pacote) values
-(5,'2016/02/20',1),(6,'2015/07/08',2),(7,'2016/03/04',3),(8,'2015/08/07',4),(9,'2016/06/06',1),(10,'2016/09/01',2);
+insert into aluno(Matricula_Aluno, Data_inicio) values
+(5,'2016/02/20'),(6,'2015/07/08'),(7,'2016/03/04'),(8,'2015/08/07'),(9,'2016/06/06'),(10,'2016/09/01');
 
 insert into endereco(Matricula_Usuario,CEP,Estado,Cidade,Bairro,Rua,Numero) values
 (1,29162980,'ES','Serra','Laranjeiras','Rua Rio Grande do Norte',3),
 (2,29164981,'ES','Norte','Norte Da Muralha','R. Rio Grande do Norte',6),
-(3,29165756,'ES','Vitoria','ItararÃ©','Av. Arlindo Sodre',25),
+(3,29165756,'ES','Vitoria','Itararé','Av. Arlindo Sodre',25),
 (4,29162262,'ES','Serra','Jose de Anchieta','R. Rio Grande do Sul',334),
 (5,28174252,'ES','Vitoria','Maruipe','R. Martins Alvarino',95),
 (6,29164375,'SP','Barueri','Alphavile','R. Inventada Agora',6),
@@ -40,8 +38,8 @@ insert into endereco(Matricula_Usuario,CEP,Estado,Cidade,Bairro,Rua,Numero) valu
 (9,29162262,'SP','Liga das Lendas','Summoners Rift','R. Mid Lane',1),
 (10,29162000,'SP','California','Radiator Springs','Route 108',95);
 
-insert into contato(Contato) values
-('Telefone'),('Celular');
+insert into contato(Desc_Contato) values
+('Telefone'),('Celular'),('Facebook'),('WhatsApp');
 
 insert into contato_usuario(Tipo_Contato, Matricula_Usuario, Contato_Usuario) values
 (1,1,'99999-1111'),
@@ -57,7 +55,7 @@ insert into contato_usuario(Tipo_Contato, Matricula_Usuario, Contato_Usuario) va
 (2,10,'3328-0000');
 
 
-insert into tipo_pagamento(Forma_Pagamento) values
+insert into tipo_pagamento(Desc_Pagamento) values
 ('Cartão'),('Dinheiro'),('Cheque');
 
 
@@ -67,5 +65,3 @@ insert into pagamento_aluno(Tipo_Pagamento, Valor_Pagamento, Matricula_Aluno)val
 
 insert into acompanha(Matricula_Professor, Matricula_Aluno, Altura, Peso) values
 (2,5,1.75,60.2),(3,6,1.80,75.2),(4,7,1.60,82.0),(2,8,1.65,76.2),(3,9,1.77,74.2),(4,10,1.30,45.5);
-
-
