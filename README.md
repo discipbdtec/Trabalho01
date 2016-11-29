@@ -167,6 +167,15 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.4.sql
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
 
 ####9.6	CONSULTAS COM JUNÇÃO<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Gerente.jpg?raw=true "Junção Usuario + Gerente")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Professor.jpg?raw=true "Junção Usuario + Professor")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Aluno.jpg?raw=true "Junção Usuario + Aluno")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
+
 ####9.7	CONSULTAS COM GROUP BY<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
