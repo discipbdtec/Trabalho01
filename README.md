@@ -27,7 +27,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/BD.jpg?raw=true "Modelo UML")
 ####5.1 Validação do Modelo Conceitual
-Grupo 1: Estêvão Segatto, Matheus Lopes
+Grupo 1: Estêvão Segatto, Matheus Lopes<br>
 Grupo 2: Matheus Santos, George Matheus
 
 ####5.2 DECISÕES DE PROJETO
