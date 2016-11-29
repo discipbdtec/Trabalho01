@@ -93,7 +93,7 @@ CREATE TABLE Usuario_Avaliaçao (
 );
 
 CREATE TABLE Usuario_Comentario (
-	Comentario int not null,
+	Comentario varchar(1000),
 	id_login int not null,
 	id_tipo int not null,
 	id_jogo int not null,
