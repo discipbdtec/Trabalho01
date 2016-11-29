@@ -153,6 +153,19 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.3.sql
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.4.sql
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1_9.5.jpg?raw=true "Consulta 1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1.1_9.5.jpg?raw=true "Consulta 1.1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.5.jpg?raw=true "Consulta 2")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.5.jpg?raw=true "Consulta 3")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3.1_9.5.jpg?raw=true "Consulta 3.1")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
+
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
