@@ -21,17 +21,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img16.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img40.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img74.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img110.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img134.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img152.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img176.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img194.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img212.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img230.jpg?raw=true "Title")
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/img248.jpg?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf?raw=true "Title")
 
 
 ###5	MODELO CONCEITUAL<br>
@@ -45,128 +35,24 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     [Grupo02]: [Matheus Santos, George Matheus]
 
 ####5.2 DECISÕES DE PROJETO
-    Pessoa: um campo no qual de dividem mais dois, e possuim por atributos nome, contatos e cpf dos usuarios.
-    Usuario: um identificador que validará suas permições.
-    Desenvolvedor: um identificador que validará suas permições.
-    Log in: usuario e senha para validar a entrada.
-    Jogo: nome do jogo e suas informações relevantes.
-    Genero: genero(s) ao(s) qual(is) o jogo pertence.
-
-####5.3 DESCRIÇÃO DOS DADOS 
-    Nas tabelas Pessoa, Desenvolvedor e Usuario:
-        Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf.
+Nas tabelas Pessoa, Desenvolvedor e Usuario:
+    Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf.
     Senha e Nick.
-    Informações especificas de cada jogo: data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
+Informações especificas de cada jogo: data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
 
+####5.3 DESCRIÇÃO DOS DADOS     
+Pessoa: um campo no qual de dividem mais dois, e possuim por atributos nome, contatos e cpf dos usuarios.
+Usuario: um identificador que validará suas permições.
+Desenvolvedor: um identificador que validará suas permições.
+Log in: usuario e senha para validar a entrada.
+Jogo: nome do jogo e suas informações relevantes.
+Genero: genero(s) ao(s) qual(is) o jogo pertence.
 
 ###6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_LBD.jpg?raw=true "Modelo Logico")
     
 ###7	MODELO FÍSICO<br>
-    create database indgam;
-    use indgam;
-
-    CREATE TABLE Login(
-    Senha VARCHAR(100),
-    Nick VARCHAR(100),
-    id_login VARCHAR(100)PRIMARY KEY);
-
-    CREATE TABLE Pessoa(
-    Nome VARCHAR(100),
-    CPF VARCHAR(100),
-    Nick VARCHAR(100),
-    País VARCHAR(100),
-    Municipio VARCHAR(100),
-    Cep VARCHAR(100),
-    Estado VARCHAR(100),
-    Cidade VARCHAR(100),
-    id_login VARCHAR(100),
-    Senha VARCHAR(100),
-    id_tipo VARCHAR(100)PRIMARY KEY,
-    foreign key (id_login) references login(id_login));
-
-    CREATE TABLE genero (
-    descricao VARCHAR(100),
-    id_genero VARCHAR(100) PRIMARY KEY
-    );
-
-    CREATE TABLE Desenvolvedor (
-    Nome_Desenvolverdor VARCHAR(100),
-    id_desenvolvedor VARCHAR(100) PRIMARY KEY,
-    id_tipo VARCHAR(100),
-    id_login VARCHAR(100),
-    FOREIGN KEY (id_login) REFERENCES Login(id_login),
-    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo));
-
-    CREATE TABLE Usuario (
-    id_user VARCHAR(100) PRIMARY KEY,
-    id_tipo VARCHAR(100),
-    id_login VARCHAR(100),
-    FOREIGN KEY (id_login) REFERENCES Login(id_login),
-    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo));
-
-
-    CREATE TABLE Jogo (
-    Requisitos_de_Sistema VARCHAR(100),
-    Data VARCHAR(100),
-    id_jogo VARCHAR(100) PRIMARY KEY,
-    Nome VARCHAR(100),
-    Link_do_Jogo VARCHAR(100),
-    Trailer VARCHAR(100),
-    Descrição VARCHAR(100),
-    Capa VARCHAR(100),
-    Preço VARCHAR(100),
-    id_genero VARCHAR(100),
-    FOREIGN KEY (id_genero) REFERENCES genero(id_genero));
-
-    CREATE TABLE Contato (
-    Contato_PK INTEGER PRIMARY KEY,
-    Tipo VARCHAR(100),
-    Descricao VARCHAR(100),
-    Cod_tipo VARCHAR(100),
-    id_tipo_FK VARCHAR(100)
-    );
-
-    CREATE TABLE Visualizou (
-    id_login VARCHAR(100),
-    id_jogo VARCHAR(100),
-    id_tipo VARCHAR(100),
-    FOREIGN KEY (id_login) REFERENCES Login(id_login),
-    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
-    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
-
-    CREATE TABLE contem (
-    id_genero VARCHAR(100),
-    id_jogo VARCHAR(100),
-    FOREIGN KEY(id_genero) REFERENCES genero (id_genero),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
-    );
-
-    CREATE TABLE Usuario_Avaliaçao (
-    Avaliaçao VARCHAR(100),
-    id_login VARCHAR(100),
-    id_tipo VARCHAR(100),
-    id_jogo VARCHAR(100),
-    FOREIGN KEY (id_login) REFERENCES Login(id_login),
-    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
-    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
-
-
-    CREATE TABLE Usuario_Comentario (
-    Comentario VARCHAR(100),
-    id_login VARCHAR(100),
-    id_tipo VARCHAR(100),
-    id_jogo VARCHAR(100),
-    FOREIGN KEY (id_login) REFERENCES Login(id_login),
-    FOREIGN KEY (id_tipo) REFERENCES Pessoa(id_tipo),
-    FOREIGN KEY (id_jogo) REFERENCES Jogo(id_jogo));
-
-    CREATE TABLE Pertence (
-    id_desenvolvedor VARCHAR(100),
-    id_jogo VARCHAR(100),
-    FOREIGN KEY(id_desenvolvedor) REFERENCES Desenvolvedor (id_desenvolvedor),
-    FOREIGN KEY(id_jogo) REFERENCES Jogo (id_jogo)
-    );
+    https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGame.sql
 
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
