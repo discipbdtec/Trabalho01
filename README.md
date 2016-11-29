@@ -31,11 +31,11 @@ Grupo 1: Estêvão Segatto, Matheus Lopes
 Grupo 2: Matheus Santos, George Matheus
 
 ####5.2 DECISÕES DE PROJETO
-Nas tabelas Pessoa, Desenvolvedor e Usuario:
+Nas tabelas Pessoa, Desenvolvedor e Usuario:<br>
     Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf;
     Senha e Nick.
     
-Informações especificas de cada jogo:
+Informações especificas de cada jogo:<br>
     Data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
 
 ####5.3 DESCRIÇÃO DOS DADOS     
@@ -55,12 +55,12 @@ Genero: genero(s) ao(s) qual(is) o jogo pertence.
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) Geramos dados apartir de jogos de nosso conhecimento, uma vez que possuimos forte envolvimento na área, como jogadores.
-        b) Não houve reutilização de códigos.
-        c) Basicamento estudos realizados nas aulas de Banco de Dados.
-        
+Detalhamento sobre as informações e processo de obtenção ou geração dos dados.<br>
+Referenciar todas as fontes referentes a:<br>
+a) Geramos dados apartir de jogos de nosso conhecimento, uma vez que possuimos forte envolvimento na área, como jogadores.<br>
+b) Não houve reutilização de códigos.<br>
+c) Basicamento estudos realizados nas aulas de Banco de Dados.<br>
+
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 
 [Insert - SQL](https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGameInsert.sql)
@@ -160,13 +160,13 @@ where nick like "A%";**<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons8.png?raw=true "Title")
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-**update jogo set preço = 31 where nome = "undertale";**
-**update login set senha = "****" where nick = "balerion21";**
-**update jogo set data = "01/01/2001" where nome = "FEZ";**
-
-**delete from jogo where nome = "heavy metal machine";**
-**delete from login where nick = "balerion21";**
-**delete from genero where id_genero = 666;**
+**update jogo set preço = 31 where nome = "undertale";**<br>
+**update login set senha = "****" where nick = "balerion21";**<br>
+**update jogo set data = "01/01/2001" where nome = "FEZ";**<br>
+<br>
+**delete from jogo where nome = "heavy metal machine";**<br>
+**delete from login where nick = "balerion21";**<br>
+**delete from genero where id_genero = 666;**<br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 **select * <br>
@@ -237,9 +237,11 @@ on (pessoa.id_login = desenvolvedor.id_login);**<br>
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
-https://docs.google.com/presentation/d/1035SlDoQEX97g9zJeuX9rxuQA3Kmb38cBpzI4kSAF-o/edit?usp=sharing
+
+[Slides](https://docs.google.com/presentation/d/1035SlDoQEX97g9zJeuX9rxuQA3Kmb38cBpzI4kSAF-o/edit?usp=sharing)
+
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-    Implementação real do que vimos em sua maioria apenas o teórico.
+    Implementação real do que vimos, em sua maioria, apenas o teórico.
     
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
