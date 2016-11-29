@@ -256,31 +256,31 @@ select Nome_Desenvolverdor <br>
 from desenvolvedor <br>
 where Nome_Desenvolverdor<br>
 like "a%";**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/4.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/4.PNG?raw=true "Title")
 
 **create view id111 as<br>
 select * from pertence<br>
 where id_desenvolvedor = 111;**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/5.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/5.PNG?raw=true "Title")
 
 **create view joguinho as<br> 
 select nome,link_do_jogo,descrição <br>
 from Jogo <br>
 where preço < 40;**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/6.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/6.PNG?raw=true "Title")
 
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 **select requisitos_de_sistema from jogo where id_jogo<br>
 = (select max(id_jogo) from jogo);**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/7.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/7.PNG?raw=true "Title")
 
 **select nome from pessoa where CPF<br>
 = (select max(cpf) from pessoa);**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/8.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/8.PNG?raw=true "Title")
 
 **select tipo from contato where tipo<br>
 = (select min(tipo) from contato);**<br>
-![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/9.png?raw=true "Title")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/9.PNG?raw=true "Title")
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
