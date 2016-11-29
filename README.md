@@ -60,8 +60,8 @@ Genero: genero(s) ao(s) qual(is) o jogo pertence.
         c) Basicamento estudos realizados nas aulas de Banco de Dados.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Insert.sql "Insert")
 
+[Insert - SQL](https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGameInsert.sql)
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
