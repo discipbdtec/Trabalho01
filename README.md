@@ -31,14 +31,11 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
     Jogos Indie: Gustavo de Assis e Victor Martins
 
 ####5.2 DECISÕES DE PROJETO
-    
-    a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas. <br>
-    
-    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem. <br>
-    
-    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno. <br>
-    
-    d) Tabela Acompanha: A chave primaria da tabela é uma chave composta, pois precisavamos que dois dados não se               repetissem <br>      
+
+a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas. 
+b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem. 
+c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.   
+d) Tabela Acompanha: A chave primaria da tabela é uma chave composta, pois precisavamos que dois dados não se repetissem     
     
 
 ####5.3 DESCRIÇÃO DOS DADOS 
@@ -102,6 +99,27 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Insert.sql
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato_usuario.jpg?raw=true "Tabela Contato Usuario")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/pagamento_aluno%3B.jpg?raw=true "Tabela Pagamento Aluno")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/site_academia.jpg?raw=true "Tabela Site Academia")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_acompanha.jpg?raw=true "Tabela Acompanha")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_aluno.jpg?raw=true "Tabela Aluno")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_contato.jpg?raw=true "Tabela Contato")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_endereco.jpg?raw=true "Tabela Endereço")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_professor.jpg?raw=true "Tabela Professor")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_usuario.jpg?raw=true "Tabela Usuario")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tipo_pagamento.jpg?raw=true "Tabela Tipo Pagamento")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.1.sql
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201_9.2.jpg?raw=true "Consulta 1")
