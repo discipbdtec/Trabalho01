@@ -233,8 +233,54 @@ on (pessoa.id_login = desenvolvedor.id_login);**<br>
 
     
 ####9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+**select jogo1.data_lancamento, jogo2.nome, jogo1.preço<br>
+from jogo jogo1<br>
+inner join jogo jogo2<br>
+on(jogo1.id_jogo = jogo2.id_jogo);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/1.png?raw=true "Title")
+
+**select contato1.tipo, contato2.tipo<br>
+from contato contato1<br>
+inner join contato contato2<br>
+on(contato1.tipo = contato2.tipo);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/2.png?raw=true "Title")
+
+**select desenvolvedor1.id_tipo, desenvolvedor1.nome_desenvolverdor, desenvolvedor1.nome_desenvolverdor<br>
+from desenvolvedor desenvolvedor1<br>
+inner join desenvolvedor desenvolvedor2<br>
+on(desenvolvedor1.id_login = desenvolvedor2.id_login);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/3.png?raw=true "Title")
+
+**create view nomes as <br>
+select Nome_Desenvolverdor <br>
+from desenvolvedor <br>
+where Nome_Desenvolverdor<br>
+like "a%";**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/4.png?raw=true "Title")
+
+**create view id111 as<br>
+select * from pertence<br>
+where id_desenvolvedor = 111;**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/5.png?raw=true "Title")
+
+**create view joguinho as<br> 
+select nome,link_do_jogo,descrição <br>
+from Jogo <br>
+where preço < 40;**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/6.png?raw=true "Title")
 
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
+**select requisitos_de_sistema from jogo where id_jogo<br>
+= (select max(id_jogo) from jogo);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/7.png?raw=true "Title")
+
+**select nome from pessoa where CPF<br>
+= (select max(cpf) from pessoa);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/8.png?raw=true "Title")
+
+**select tipo from contato where tipo<br>
+= (select min(tipo) from contato);**<br>
+![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/9.png?raw=true "Title")
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
