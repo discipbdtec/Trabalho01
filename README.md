@@ -192,7 +192,8 @@ Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
     
-    As dificuldades encontradas pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades e ai        tivemos de refazer-lo diversas vezes. 
+    A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, 
+    por conta, tivemos de refazer-lo diversas vezes.
     
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
