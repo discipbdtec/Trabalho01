@@ -21,7 +21,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf? "Title")
+[GitHub Pages](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf)
 
 
 ###5	MODELO CONCEITUAL<br>
