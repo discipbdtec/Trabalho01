@@ -179,9 +179,21 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 ####9.7	CONSULTAS COM GROUP BY<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View%20_mensalidadeAluno.jpg?raw=true "Mensalidade do Aluno")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View_SalarioProf.jpg?raw=true "Salario Professor")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View_CNPJ.jpg?raw=true "CNPJ Gerente")
+
+Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
+
 ####9.10	SUBCONSULTAS<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+    
+    As dificuldades encontradas pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades e ai        tivemos de refazer-lo diversas vezes. 
+    
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
