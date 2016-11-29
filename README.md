@@ -129,16 +129,28 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.1.sql
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.2.jpg?raw=true "Consulta 3")
 
 
-Script comandos
-https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
+Script comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1_9.3.jpg?raw=true "Consulta 1")
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.3.jpg?raw=true "Consulta 2")
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.3.jpg?raw=true "Consulta 3")
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta4_9.3.jpg?raw=true "Consulta 4")
 
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.3.sql
+
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201_9.4.jpg?raw=true "Consulta 1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.4.jpg?raw=true "Consulta 2")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.4.jpg?raw=true "Consulta 3")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.4.sql
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 ####9.6	CONSULTAS COM JUNÇÃO<br>
