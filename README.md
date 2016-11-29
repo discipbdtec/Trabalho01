@@ -17,12 +17,8 @@ Os usuarios, não necessariamente desenvolvedores, mas pessoas comuns que podem 
 Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir deste log in eles poderam visualizar os jogos, comentarem e avaliarem os mesmo. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-"Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas." <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-[GitHub Pages](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf)
-
+[Link PDF Mockups](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf)
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
@@ -31,12 +27,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/BD.jpg?raw=true "Modelo UML")
 ####5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Estêvão Segatto, Matheus Lopes]
-    [Grupo02]: [Matheus Santos, George Matheus]
+    Grupo 1: Estêvão Segatto, Matheus Lopes
+    Grupo 2: Matheus Santos, George Matheus
 
 ####5.2 DECISÕES DE PROJETO
 Nas tabelas Pessoa, Desenvolvedor e Usuario:
-    Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf.
+    Há os ID de desenvolvedor, usuario e o do tipo. Contendo também nome, contatos e cpf;
     Senha e Nick.
 Informações especificas de cada jogo: data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
 
@@ -52,7 +48,7 @@ Genero: genero(s) ao(s) qual(is) o jogo pertence.
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_LBD.jpg?raw=true "Modelo Logico")
     
 ###7	MODELO FÍSICO<br>
-    https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGame.sql
+[Modelo Físico - SQL](https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGame.sql)
 
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
