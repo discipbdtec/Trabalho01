@@ -7,7 +7,9 @@ Trabalho desenvolvido durante a disciplina de BD
 George Matheus e Matheus Costa<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <academia do projeto> e motivação da escolha realizada. <br>
+Para facilitar nosso desenvolvimento do PI no ano vem que tera o mesmo. <br>
+
+Também por ser um tema que nos intereca muito. <br>
 
 ###3	MINI-MUNDO<br>
 Foi-nos solicitado um site para uma academia, pois o deles estava desatualizado, lento e com muitas falhas, a academia também não tem um bom controle de pagamento pois o sistema nao avisa quando uma pessoa deveria pagar e nem da uma forma de feedback pro aluno ou professor, seja para professores que não sabem ao certo quando receberam o pagamento, quanto para alunos, tendo sempre que ir olhar nas fichas e na maioria das vezes gerando atrasos. A academia ainda conta com um sistema de ficar imprimindo as séries de exercício em folhas de papel, o que gera um gasto desnecessário de folhas, pois com frequência o aluno acaba perdendo a folha e tendo sempre que imprimir novamente.<br>
@@ -22,6 +24,9 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Conc_Academia.jpg?raw=true "Modelo Conceitual")
+    
+     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/UML%20-%20Academia.jpg?raw=true "Notacao UML")
     
 ####5.1 Validação do Modelo Conceitual
     Consultório Odontológico: Weber Gonçalves.
