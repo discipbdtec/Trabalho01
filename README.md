@@ -23,9 +23,6 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Conc_Academia.jpg?raw=true "Modelo Conceitual")
     
-    5.2 NOTACAO UML
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/UML%20-%20Academia.jpg?raw=true "Notação UML")
-
 ####5.1 Validação do Modelo Conceitual
     Consultório Odontológico: Weber Gonçalves.
     Jogos Indie: Gustavo de Assis e Victor Martins
