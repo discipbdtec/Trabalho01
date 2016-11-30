@@ -1,35 +1,35 @@
 #9.6
 select * from
-usuario join aluno
-on(aluno.Matricula_Aluno = usuario.Matricula);
+Usuario join Aluno
+on(Aluno.Matricula_Aluno = Usuario.Matricula);
 
 select * from
-usuario join professor
-on(professor.Matricula_Professor = usuario.Matricula);
+Usuario join Professor
+on(Professor.Matricula_Professor = Usuario.Matricula);
 
 select * from
-usuario join gerente
-on(gerente.Matricula_Gerente = usuario.Matricula);
+Usuario join Gerente
+on(Gerente.Matricula_Gerente = Usuario.Matricula);
 
 #Join Tabela Inteira
-select * from usuario
-inner join aluno
+select * from Usuario
+inner join Aluno
 inner join Pagamento_Aluno
-inner join tipo_pagamento
-inner join acompanha
-inner join professor
-inner join gerente
-inner join site_academia
+inner join Tipo_Pagamento
+inner join Acompanha
+inner join Professor
+inner join Gerente
+inner join Site_Academia
 inner join Endereco
-inner join contato_usuario
-inner join contato
-on aluno.Matricula_Aluno = usuario.matricula 
-and aluno.Matricula_Aluno = pagamento_aluno.Matricula_Aluno 
-and tipo_pagamento.Cod_Tipo = pagamento_aluno.Tipo_Pagamento
-and aluno.Matricula_Aluno = acompanha.Matricula_Aluno
-and acompanha.Matricula_Professor = professor.Matricula_Professor
-and gerente.Matricula_Gerente = professor.Matricula_Gerente
-and site_academia.Cod_Site = usuario.Cod_Site
-and endereco.Matricula_Usuario = usuario.Matricula
-and contato_usuario.matricula_usuario = usuario.matricula
-and contato.Cod_Contato = contato_usuario.tipo_contato;
+inner join Contato_Usuario
+inner join Contato
+on Aluno.Matricula_Aluno = Usuario.Matricula 
+and Aluno.Matricula_Aluno = Pagamento_Aluno.Matricula_Aluno 
+and Tipo_Pagamento.Cod_Tipo = Pagamento_Aluno.Tipo_Pagamento
+and Aluno.Matricula_Aluno = Acompanha.Matricula_Aluno
+and Acompanha.Matricula_Professor = Professor.Matricula_Professor
+and Gerente.Matricula_Gerente = Professor.Matricula_Gerente
+and Site_Academia.Cod_Site = Usuario.Cod_Site
+and Endereco.Matricula_Usuario = Usuario.Matricula
+and Contato_Usuario.Matricula_Usuario = Usuario.Matricula
+and Contato.Cod_Contato = Contato_Usuario.Tipo_Contato;
