@@ -217,7 +217,7 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/left_RightJoi
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SelfJoin2.png?raw=true "Self Join2")
 
-Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
 
 ####9.10	SUBCONSULTAS<br>
 
@@ -227,6 +227,8 @@ Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta3.png?raw=true "SubConsulta3")
 
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.10.sql
+
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
 https://github.com/MRMaken/Trabalho01/blob/master/Slides%20Academia.odp
@@ -235,6 +237,7 @@ https://github.com/MRMaken/Trabalho01/blob/master/Slides%20Academia.odp
 
 A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, por conta disso tivemos de refazer-lo diversas vezes, no momento de fazer alguns inner joins tivemos alguns dificuldades para ligar todas as tabelas, pois as vezes o comando funcionava, mas nem sempre mostrava o que queriamos e tinhamos que tentar varias vezes até dar certo, e na hora de fazer subconsultas tinhamos dificuldade, pois mesmo sabendo o para que servia a gente não conseguia usar ela em nosso banco. 
 Foi utilizado como ajuda para criação do banco um curso no youtube que ajudou na resolução de algumas duvidas.
+
 https://www.youtube.com/watch?v=Ofktsne-utM&index=1&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&spfreload=5
 
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
