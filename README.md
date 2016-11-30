@@ -177,6 +177,19 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 
 ####9.7	CONSULTAS COM GROUP BY<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult1.jpg?raw=true "Consulta 1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult2.jpg?raw=true "Consulta 2")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult3.jpg?raw=true "Consulta 3")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult4.jpg?raw=true "Consulta 4")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult5.jpg?raw=true "Consulta 5")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.7.sql
+
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 
@@ -191,9 +204,8 @@ Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
 ####9.10	SUBCONSULTAS<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-    
-    A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, 
-    por conta, tivemos de refazer-lo diversas vezes.
+   
+    A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, por conta, tivemos de refazer-lo diversas vezes.
     
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
