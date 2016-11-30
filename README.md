@@ -90,7 +90,7 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
 
-Os dados usados são referencias a gosto pessoais da dupla, e não reutilizamos nenhum codigo.O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
+Os dados usados são referências à gostos pessoais da dupla, não foi reutilizado nenhum codigo, exceto os aprendidos em sala de aula, o trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 
