@@ -29,11 +29,11 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
 
 ####5.2 DECISÕES DE PROJETO
 
-    a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas.<br>
-    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem.<br>
-    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.<br>
+    a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas.
+    b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem.
+    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.
     d) Tabela Acompanha: A chave primaria da tabela é uma chave composta,
-       pois precisavamos que dois dados não se repetissem.<br>
+       pois precisavamos que dois dados não se repetissem.
     
 
 ####5.3 DESCRIÇÃO DOS DADOS 
