@@ -7,6 +7,8 @@ Trabalho desenvolvido durante a disciplina de BD
 George Matheus e Matheus Costa<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
+Nesse projeto vizamos a criacao de um banco de dados para um site de acdemia.<br>
+
 Para facilitar nosso desenvolvimento do PI no ano vem que tera o mesmo. <br>
 
 Também por ser um tema que nos intereca muito. <br>
