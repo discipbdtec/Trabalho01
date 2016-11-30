@@ -89,10 +89,13 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Os dados usados são referencias a gosto pessoais da dupla, e não reutilizamos nenhum codigo.O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
+
+Os dados usados são referencias a gosto pessoais da dupla, e não reutilizamos nenhum codigo.O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+
 Script com da criação + Insert: https://github.com/MRMaken/Trabalho01/blob/master/ScriptBancoCompleto.sql
+
 Dump Script Completo: https://github.com/MRMaken/Trabalho01/blob/master/DumpScriptCompleto.sql
 
 
@@ -175,7 +178,6 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Aluno.jpg?raw=true "Junção Usuario + Aluno")
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/InnerJoinCompleto1.png?raw=true "Junção Tabela Aluno com as outras")
-
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 
