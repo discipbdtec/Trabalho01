@@ -101,10 +101,9 @@ constraint pk_CE primary key(Matricula_Professor, Matricula_Aluno)
 )default charset = utf8;
 
 
+insert into Site_Academia values (13,'Fabrica de Monstros','www.fabricademonstrosacademia.com.br','imageacademia.jpeg');
 
-insert into site_academia values (13,'Fabrica de Monstros','www.fabricademonstrosacademia.com.br','imageacademia.jpeg');
-
-insert into usuario (Nome_Completo,CPF,Sexo, Data_Nascimento,Email,Nome_Usuario,Senha,Cod_Site) values
+insert into Usuario (Nome_Completo,CPF,Sexo, Data_Nascimento,Email,Nome_Usuario,Senha,Cod_Site) values
 ('Arya Stark',1010,'F','1984/08/10','AryaS@gmail.com','AryaS','123',13),
 ('João das Neves',2020,'M','1954/08/20','JoaoN@gmail.com','JoaoN','321',13),
 ('Marcelo Fulano',3030,'M','1950/05/21','MarceloF@gmail.com','MarceloF','456',13),
@@ -117,18 +116,18 @@ insert into usuario (Nome_Completo,CPF,Sexo, Data_Nascimento,Email,Nome_Usuario,
 ('Marquinhos Catchau',1011,'M','1996/08/19','MarquinhosC@mcquen.com','MarquinhosC','258',13);
 
 
-insert into gerente(Matricula_Gerente,CNPJ,Cod_Site) values
+insert into Gerente(Matricula_Gerente,CNPJ,Cod_Site) values
 (1,6300,13);
 
-insert into professor(Matricula_Professor, Matricula_Gerente, Turno, Salario) values
+insert into Professor(Matricula_Professor, Matricula_Gerente, Turno, Salario) values
 (2,1,'Matutino',1200.00),
 (3,1,'Vespertino',1200.00),
 (4,1,'Noturno',1200.00);
 
-insert into aluno(Matricula_Aluno, Data_inicio) values
+insert into Aluno(Matricula_Aluno, Data_inicio) values
 (5,'2016/02/20'),(6,'2015/07/08'),(7,'2016/03/04'),(8,'2015/08/07'),(9,'2016/06/06'),(10,'2016/09/01');
 
-insert into endereco(Matricula_Usuario,CEP,Estado,Cidade,Bairro,Rua,Numero) values
+insert into Endereco(Matricula_Usuario,CEP,Estado,Cidade,Bairro,Rua,Numero) values
 (1,29162980,'ES','Serra','Laranjeiras','Rua Rio Grande do Norte',3),
 (2,29164981,'ES','Norte','Norte Da Muralha','R. Rio Grande do Norte',6),
 (3,29165756,'ES','Vitoria','Itararé','Av. Arlindo Sodre',25),
@@ -140,10 +139,10 @@ insert into endereco(Matricula_Usuario,CEP,Estado,Cidade,Bairro,Rua,Numero) valu
 (9,29162262,'SP','Liga das Lendas','Summoners Rift','R. Mid Lane',1),
 (10,29162000,'SP','California','Radiator Springs','Route 108',95);
 
-insert into contato(Desc_Contato) values
+insert into Contato(Desc_Contato) values
 ('Telefone'),('Celular'),('Facebook'),('WhatsApp');
 
-insert into contato_usuario(Tipo_Contato, Matricula_Usuario, Contato_Usuario) values
+insert into Contato_Usuario(Tipo_Contato, Matricula_Usuario, Contato_Usuario) values
 (1,1,'99999-1111'),
 (2,1,'3328-6666'),
 (2,2,'3328-3333'),
@@ -157,26 +156,14 @@ insert into contato_usuario(Tipo_Contato, Matricula_Usuario, Contato_Usuario) va
 (2,10,'3328-0000');
 
 
-insert into tipo_pagamento(Desc_Pagamento) values
+insert into Tipo_Pagamento(Desc_Pagamento) values
 ('Cartão'),('Dinheiro'),('Cheque');
 
 
-insert into pagamento_aluno(Tipo_Pagamento, Valor_Pagamento, Matricula_Aluno)values
+insert into Pagamento_Aluno(Tipo_Pagamento, Valor_Pagamento, Matricula_Aluno)values
 (1,65.00,5),(2,75.00,6),(3,80.00,7),(1,100.00,8),(2,75.00,9),(3,80.00,10);
 
 
-insert into acompanha(Matricula_Professor, Matricula_Aluno, Altura, Peso) values
+insert into Acompanha(Matricula_Professor, Matricula_Aluno, Altura, Peso) values
 (2,5,1.75,60.2),(3,6,1.80,75.2),(4,7,1.60,82.0),(2,8,1.65,76.2),(3,9,1.77,74.2),(4,10,1.30,45.5);
-select * from acompanha;
 
-
-select * from site_academia;
-select * from usuario;
-select * from gerente;
-select * from professor;
-select * from aluno;
-select * from contato;
-select * from contato_usuario;
-select * from tipo_pagamento;
-select * from pagamento_aluno;
-select * from acompanha;
