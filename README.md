@@ -31,8 +31,9 @@ https://github.com/MRMaken/Trabalho01/blob/master/Academia.pdf
 
     a) Endereço: fizemos de endereço um campo composto, para ter mais organização nas tabelas.<br>
     b) Contato: é um campo multivalorado que se estende da quantidade de contatos que o individuo tem.<br>
-    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.<br> 
-    d) Tabela Acompanha: A chave primaria da tabela é uma chave composta, pois precisavamos que dois dados não se repetissem.<br>  
+    c) Formas_de_Pagamento: Fizemos desse um campo multivalorado pra ter opçoes de pagamento para o aluno.<br>
+    d) Tabela Acompanha: A chave primaria da tabela é uma chave composta,
+       pois precisavamos que dois dados não se repetissem.<br>
     
 
 ####5.3 DESCRIÇÃO DOS DADOS 
