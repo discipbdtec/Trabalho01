@@ -94,7 +94,9 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
         Os dados usados são referencias a gosto pessoais da dupla, e não reutilizamos nenhum codigo.O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-https://github.com/MRMaken/Trabalho01/blob/master/ScriptBancoCompleto.sql
+Script com da criação + Insert: https://github.com/MRMaken/Trabalho01/blob/master/ScriptBancoCompleto.sql
+Dump Script Completo: https://github.com/MRMaken/Trabalho01/blob/master/DumpScriptCompleto.sql
+
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
@@ -191,6 +193,17 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.7.sql
 
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consul1.jpeg?raw=true "Consulta 1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult2.jpeg?raw=true "Consulta 2")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult3.jpeg?raw=true "Consulta 3")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult4.png?raw=true "Consulta 4")
+
+Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/left_RightJoin.sql
+
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View%20_mensalidadeAluno.jpg?raw=true "Mensalidade do Aluno")
