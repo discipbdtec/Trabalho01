@@ -23,3 +23,14 @@ on usuario.matricula = gerente.Matricula_gerente;
 
 Select * from CNPJ_gerente;
 
+#Self_Join
+
+select * from Usuario
+join Acompanha on Acompanha.Matricula_Aluno = Usuario.Matricula
+join Usuario as Usuario2 on Acompanha.Matricula_Professor = Usuario2.Matricula;
+
+select * from Usuario
+join Professor on Professor.Matricula_Professor = Usuario.Matricula
+join Usuario as Usuario2 on Professor.Matricula_Gerente = Usuario2.Matricula
+
+
