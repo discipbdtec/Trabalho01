@@ -285,6 +285,7 @@ where preço < 40;**<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
 [Slides](https://docs.google.com/presentation/d/1035SlDoQEX97g9zJeuX9rxuQA3Kmb38cBpzI4kSAF-o/edit?usp=sharing)
+[Slides](https://drive.google.com/open?id=0B1s9xG9KM9-wb2lqdFRqV2Y2TkE)
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
     Implementação real do que vimos, em sua maioria, apenas o teórico.
