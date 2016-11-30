@@ -222,6 +222,13 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/left_RightJoi
 Sripts Comando: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
 
 ####9.10	SUBCONSULTAS<br>
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta1.png?raw=true "SubConsulta1")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta2.png?raw=true "SubConsulta2")
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta3.png?raw=true "SubConsulta3")
+
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
