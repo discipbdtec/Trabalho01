@@ -25,7 +25,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBD.jpg?raw=true "Modelo Conceitual")
     
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/BD.jpg?raw=true "Modelo UML")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")
 ####5.1 Validação do Modelo Conceitual
 Grupo 1: Estêvão Segatto, Matheus Lopes<br>
 Grupo 2: Matheus Santos, George Matheus
@@ -284,7 +284,6 @@ where preço < 40;**<br>
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
-[Slides](https://docs.google.com/presentation/d/1035SlDoQEX97g9zJeuX9rxuQA3Kmb38cBpzI4kSAF-o/edit?usp=sharing)
 [Slides](https://drive.google.com/open?id=0B1s9xG9KM9-wb2lqdFRqV2Y2TkE)
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
