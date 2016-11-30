@@ -176,6 +176,9 @@ Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Aluno.jpg?raw=true "Junção Usuario + Aluno")
 
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/InnerJoinTabelaToda.png?raw=true "Junção Tabela Aluno com as outras")
+
+
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 
 ####9.7	CONSULTAS COM GROUP BY<br>
