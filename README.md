@@ -109,70 +109,91 @@ Dump Script Completo: https://github.com/MRMaken/Trabalho01/blob/master/DumpScri
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato_usuario.jpg?raw=true "Tabela Contato Usuario")
+https://github.com/MRMaken/Trabalho01/blob/master/select_contato_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato_usuario.png?raw=true "Tabela Contato Usuario")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/pagamento_aluno%3B.jpg?raw=true "Tabela Pagamento Aluno")
+https://github.com/MRMaken/Trabalho01/blob/master/select_pagamento_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/pagamento_aluno.png?raw=true "Tabela Pagamento Aluno")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/site_academia.jpg?raw=true "Tabela Site Academia")
+https://github.com/MRMaken/Trabalho01/blob/master/select_site_academia.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/site_academia.png?raw=true "Tabela Site Academia")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_acompanha.jpg?raw=true "Tabela Acompanha")
+https://github.com/MRMaken/Trabalho01/blob/master/select_acompanha.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/acompanha.png?raw=true "Tabela Acompanha")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_aluno.jpg?raw=true "Tabela Aluno")
+https://github.com/MRMaken/Trabalho01/blob/master/select_aluno.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/aluno.png?raw=true "Tabela Aluno")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_contato.jpg?raw=true "Tabela Contato")
+https://github.com/MRMaken/Trabalho01/blob/master/select_contato.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato.png?raw=true "Tabela Contato")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_endereco.jpg?raw=true "Tabela Endereço")
+https://github.com/MRMaken/Trabalho01/blob/master/select_endereco.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/endereco.png?raw=true "Tabela Endereço")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_professor.jpg?raw=true "Tabela Professor")
+https://github.com/MRMaken/Trabalho01/blob/master/select_professor.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/professor.png?raw=true "Tabela Professor")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tabela_usuario.jpg?raw=true "Tabela Usuario")
+https://github.com/MRMaken/Trabalho01/blob/master/select_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/usuario.png?raw=true "Tabela Usuario")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tipo_pagamento.jpg?raw=true "Tabela Tipo Pagamento")
+https://github.com/MRMaken/Trabalho01/blob/master/select_tipo_pagamento.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/tipo_pagamento.png?raw=true "Tabela Tipo Pagamento")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.1.sql
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201_9.2.jpg?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.2.jpg?raw=true "Consulta 2")
+https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_endereco.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/where_endereco.png?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.2.jpg?raw=true "Consulta 3")
+https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_pagamento_aluno.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/where_pagamento_aluno.png?raw=true "Consulta 2")
+
+https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/where_usuario.png?raw=true "Consulta 3")
 
 
 Script comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.2.sql
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1_9.3.jpg?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.3.jpg?raw=true "Consulta 2")
+https://github.com/MRMaken/Trabalho01/blob/master/LACr_endereco.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_endereco.png?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.3.jpg?raw=true "Consulta 3")
+https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor.png?raw=true "Consulta 2")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta4_9.3.jpg?raw=true "Consulta 4")
+https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor2.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor2.png?raw=true "Consulta 3")
+
+https://github.com/MRMaken/Trabalho01/blob/master/LACr_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_usuario.png?raw=true "Consulta 4")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.3.sql
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta%201_9.4.jpg?raw=true "Consulta 1")
+https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario.png?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.4.jpg?raw=true "Consulta 2")
+https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario2.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario2.png?raw=true "Consulta 2")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.4.jpg?raw=true "Consulta 3")
+https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario3.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario3.png?raw=true "Consulta 3")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.4.sql
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1_9.5.jpg?raw=true "Consulta 1")
+https://github.com/MRMaken/Trabalho01/blob/master/update_delete_gerente.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/update_delete_gerente.png?raw=true "Consulta 1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta1.1_9.5.jpg?raw=true "Consulta 1.1")
+https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor.png?raw=true "Consulta 1.1")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta2_9.5.jpg?raw=true "Consulta 2")
-
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3_9.5.jpg?raw=true "Consulta 3")
-
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Consulta3.1_9.5.jpg?raw=true "Consulta 3.1")
+https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor2.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor2.png?raw=true "Consulta 2")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.5.sql
 
