@@ -308,13 +308,21 @@ update professor set Turno = 'Noturno' where Matricula_Professor = 3;
 
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Gerente.jpg?raw=true "Junção Usuario + Gerente")
+select * from Usuario join Aluno 
+on(Aluno.Matricula_Aluno = Usuario.Matricula);
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.1.png?raw=true "Junção Usuario + Aluno")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Professor.jpg?raw=true "Junção Usuario + Professor")
+select * from Usuario join Professor
+on(Professor.Matricula_Professor = Usuario.Matricula);
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.2.png?raw=true "Junção Usuario + Professor")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Join_Aluno.jpg?raw=true "Junção Usuario + Aluno")
+select * from Usuario join Gerente
+on(Gerente.Matricula_Gerente = Usuario.Matricula);
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.5.png?raw=true "Junção Usuario + Gerente")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/InnerJoinCompleto1.png?raw=true "Junção Tabela Aluno com as outras")
+Devido ao tamanho do comando, ele foi colocado em um arquivo separado, e somente parte do que ele faz está na imagem, segue no link abaixo:
+https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.4.png?raw=true "Junção Tabela Aluno com as outras")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 
