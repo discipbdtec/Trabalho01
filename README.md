@@ -109,81 +109,55 @@ Dump Script Completo: https://github.com/MRMaken/Trabalho01/blob/master/DumpScri
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_contato_usuario.sql
 
-use gap;
+USE GAP;
 
 select * from contato_usuario;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato_usuario.png?raw=true "Tabela Contato Usuario")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_pagamento_usuario.sql
-
-use gap;
 
 select * from pagamento_aluno;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/pagamento_aluno.png?raw=true "Tabela Pagamento Aluno")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_site_academia.sql
-
-use gap;
 
 select * from site_academia;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/site_academia.png?raw=true "Tabela Site Academia")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_acompanha.sql
 
-use gap;
 
 select * from acompanha;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/acompanha.png?raw=true "Tabela Acompanha")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_aluno.sql
 
-use gap;
 
 select * from aluno;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/aluno.png?raw=true "Tabela Aluno")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_contato.sql
-
-use gap;
 
 select * from contato;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/contato.png?raw=true "Tabela Contato")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_endereco.sql
-
-use gap;
 
 select * from endereco;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/endereco.png?raw=true "Tabela Endereço")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_professor.sql
-
-use gap;
 
 select * from professor;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/professor.png?raw=true "Tabela Professor")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_usuario.sql
-
-use gap;
 
 select * from usuario;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/usuario.png?raw=true "Tabela Usuario")
 
-https://github.com/MRMaken/Trabalho01/blob/master/select_tipo_pagamento.sql
-
-USE GAP;
 
 select * from tipo_pagamento;
 
@@ -192,25 +166,16 @@ select * from tipo_pagamento;
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 
-https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_endereco.sql
-
-USE GAP;
 
 select * from endereco where Estado = 'ES';
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/where_endereco.png?raw=true "Consulta 1")
 
-https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_pagamento_aluno.sql
-
-USE GAP;
 
 select Matricula_Aluno from pagamento_aluno where Valor_Pagamento > 60.00;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/where_pagamento_aluno.png?raw=true "Consulta 2")
 
-https://github.com/MRMaken/Trabalho01/blob/master/filtro_where_usuario.sql
-
-USE gap;
 
 select Nome_Completo, Data_Nascimento, CPF from usuario where Data_Nascimento > '1994-05-01';
 
@@ -219,33 +184,21 @@ select Nome_Completo, Data_Nascimento, CPF from usuario where Data_Nascimento > 
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 
-https://github.com/MRMaken/Trabalho01/blob/master/LACr_endereco.sql
-
-USE GAP;
 
 select Matricula_Usuario, Estado from endereco where Estado = 'ES' or Estado = 'RJ';
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_endereco.png?raw=true "Consulta 1")
 
-https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor.sql
-
-USE GAP;
 
 select * from professor where Salario > 1200 or Salario <= 1300;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor.png?raw=true "Consulta 2")
 
-https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor2.sql
-
-USE GAP;
 
 select Matricula_Professor, Salario * 1.10 as Novo_Salario from professor where Salario >= 1200;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/LACr_professor2.png?raw=true "Consulta 3")
 
-https://github.com/MRMaken/Trabalho01/blob/master/LACr_usuario.sql
-
-USE GAP;
 
 select Matricula, Nome_Completo as Mulheres_da_Academia from usuario where Sexo = 'F';
 
@@ -254,25 +207,16 @@ select Matricula, Nome_Completo as Mulheres_da_Academia from usuario where Sexo 
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 
-https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario.sql
-
-USE GAP;
 
 select * from usuario where Nome_Completo like 'A%';
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario.png?raw=true "Consulta 1")
 
-https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario2.sql
-
-USE GAP;
 
 select * from usuario where Email like '%@gmail.com';
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario2.png?raw=true "Consulta 2")
 
-https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario3.sql
-
-USE GAP;
 
 select * from usuario where Nome_Completo like '_a%';
 
@@ -281,25 +225,16 @@ select * from usuario where Nome_Completo like '_a%';
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 
-https://github.com/MRMaken/Trabalho01/blob/master/update_delete_gerente.sql
-
-USE GAP;
 
 update gerente set CNPJ = 146509 where Matricula_Gerente = 1;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/update_delete_gerente.png?raw=true "Consulta 1")
 
-https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor.sql
-
-USE GAP;
 
 update professor set Salario = 1350.00 where Matricula_Professor = 2;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor.png?raw=true "Consulta 1.1")
 
-https://github.com/MRMaken/Trabalho01/blob/master/update_delete_professor2.sql
-
-USE GAP;
 
 update professor set Turno = 'Noturno' where Matricula_Professor = 3;
 
@@ -310,14 +245,17 @@ update professor set Turno = 'Noturno' where Matricula_Professor = 3;
 
 select * from Usuario join Aluno 
 on(Aluno.Matricula_Aluno = Usuario.Matricula);
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.1.png?raw=true "Junção Usuario + Aluno")
 
 select * from Usuario join Professor
 on(Professor.Matricula_Professor = Usuario.Matricula);
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.2.png?raw=true "Junção Usuario + Professor")
 
 select * from Usuario join Gerente
 on(Gerente.Matricula_Gerente = Usuario.Matricula);
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.5.png?raw=true "Junção Usuario + Gerente")
 
 Devido ao tamanho do comando, ele foi colocado em um arquivo separado, e somente parte do que ele faz está na imagem, segue no link abaixo:
