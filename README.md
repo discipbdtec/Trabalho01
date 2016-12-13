@@ -215,6 +215,7 @@ select * from usuario where Nome_Completo like 'A%';
 
 select * from usuario where Email like '%@gmail.com';
 
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Like_usuario2.png?raw=true "Consulta 2")
 
 
@@ -250,7 +251,6 @@ on(Aluno.Matricula_Aluno = Usuario.Matricula);
 
 select * from Usuario join Professor
 on(Professor.Matricula_Professor = Usuario.Matricula);
-
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.2.png?raw=true "Junção Usuario + Professor")
 
 select * from Usuario join Gerente
@@ -266,17 +266,36 @@ https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 
 ####9.7	CONSULTAS COM GROUP BY<br>
 
+select usuario.Matricula, usuario.Nome_Completo, usuario.CPF, aluno.Data_inicio from usuario join aluno
+on(aluno.Matricula_Aluno = usuario.Matricula)
+group by usuario.Nome_Completo, usuario.Matricula;
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult1.jpg?raw=true "Consulta 1")
+
+select usuario.Matricula, usuario.Nome_Completo, usuario.CPF, aluno.Data_inicio from usuario join aluno 
+on(aluno.Matricula_Aluno = usuario.Matricula)
+group by usuario.Matricula desc;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult2.jpg?raw=true "Consulta 2")
 
+select usuario.Matricula, usuario.Nome_Completo, aluno.Data_Inicio, pagamento_aluno.Valor_Pagamento
+from usuario join aluno join pagamento_aluno
+on(aluno.Matricula_Aluno = usuario.Matricula and pagamento_aluno.Matricula_Aluno = aluno.Matricula_Aluno)
+group by pagamento_aluno.Valor_Pagamento, usuario.Matricula;
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult3.jpg?raw=true "Consulta 3")
+
+select * from usuario
+group by Nome_Completo, Matricula;
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult4.jpg?raw=true "Consulta 4")
 
+select * from endereco
+group by Estado, Matricula_Usuario;
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/Groupby_consult5.jpg?raw=true "Consulta 5")
 
-Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.7.sql
+
 
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 
