@@ -1,17 +1,5 @@
-#9.6
-select * from
-Usuario join Aluno
-on(Aluno.Matricula_Aluno = Usuario.Matricula);
+#9.6 Join Tabela Inteira
 
-select * from
-Usuario join Professor
-on(Professor.Matricula_Professor = Usuario.Matricula);
-
-select * from
-Usuario join Gerente
-on(Gerente.Matricula_Gerente = Usuario.Matricula);
-
-#Join Tabela Inteira
 select * from Usuario
 inner join Aluno
 inner join Pagamento_Aluno
