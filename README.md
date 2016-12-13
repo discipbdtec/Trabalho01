@@ -324,7 +324,7 @@ Devido ao tamanho do comando, ele foi colocado em um arquivo separado, e somente
 https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.6.4.png?raw=true "Junção Tabela Aluno com as outras")
 
-Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.6.sql
+
 
 ####9.7	CONSULTAS COM GROUP BY<br>
 
