@@ -3,7 +3,7 @@ import MySQLdb
 import sqlalchemy
 from sqlalchemy import create_engine
 
-parametros_conexao='mysql://balerion21:kamikakushi@balerion21.mysql.pythonanywhere-services.com/balerion21$TrabalhoBD?charset=utf8'
+parametros_conexao = ''
 engine = create_engine(parametros_conexao)
 
 conn = engine.connect()
