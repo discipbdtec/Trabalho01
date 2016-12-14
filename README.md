@@ -305,19 +305,19 @@ select Usuario.Matricula, Usuario.Nome_Completo, Aluno.Data_inicio from Usuario
 left join Aluno
 on(Usuario.Matricula = Aluno.Matricula_Aluno);
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consul1.jpeg?raw=true "Consulta 1")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consul1.jpg?raw=true "Consulta 1")
 
 select usuario.Matricula, usuario.Nome_Completo, usuario.CPF, aluno.Data_inicio from usuario join aluno 
 on(aluno.Matricula_Aluno = usuario.Matricula)
 group by usuario.Matricula desc;
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult2.jpeg?raw=true "Consulta 2")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult2.jpg?raw=true "Consulta 2")
 
 select Usuario.Nome_Completo, Acompanha.Altura, Acompanha.Peso
 from Usuario left join Acompanha
 on(Usuario.Matricula = Acompanha.Matricula_Aluno);
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult3.jpeg?raw=true "Consulta 3")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.8Consult3.jpg?raw=true "Consulta 3")
 
 
 select Usuario.Nome_Completo, Acompanha.Altura, Acompanha.Peso
