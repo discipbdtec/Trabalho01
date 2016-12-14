@@ -35,8 +35,7 @@ FOREIGN KEY(Cod_Site) REFERENCES Site_Academia (Cod_Site)
 
 CREATE TABLE Aluno (
 Matricula_Aluno INTEGER PRIMARY KEY,
-Data_inicio date,
-Mensalidade float,  
+Data_inicio date,  
 FOREIGN KEY(Matricula_Aluno) REFERENCES Usuario (Matricula)
 )default charset = utf8;
 
