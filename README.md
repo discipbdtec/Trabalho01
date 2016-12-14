@@ -288,10 +288,11 @@ where preço < 40;**<br>
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
     Implementação real do que vimos, em sua maioria, apenas o teórico.
-    https://github.com/gustavovictor/Trabalho01/blob/patch-1/DateBase.py
-    https://github.com/gustavovictor/Trabalho01/blob/patch-1/Pesquisa.py
+###12 Trabalho de Rede Social<br>
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/DateBase.py?raw=true "Banco de Dado")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Pesquisa.py?raw=true "Pesquisa")
     
-###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+###13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
 
