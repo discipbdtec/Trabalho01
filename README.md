@@ -11,11 +11,11 @@ Nesse projeto vizamos a criacao de um banco de dados para um site de acdemia.<br
 
 Para facilitar nosso desenvolvimento do PI no ano vem que tera o mesmo. <br>
 
-Também por ser um tema que nos intereca muito. <br>
+Também por ser um tema que nos interessa muito. <br>
 
 ###3	MINI-MUNDO<br>
 Foi-nos solicitado um site para uma academia, pois o deles estava desatualizado, lento e com muitas falhas, a academia também não tem um bom controle de pagamento pois o sistema nao avisa quando uma pessoa deveria pagar e nem da uma forma de feedback pro aluno ou professor, seja para professores que não sabem ao certo quando receberam o pagamento, quanto para alunos, tendo sempre que ir olhar nas fichas e na maioria das vezes gerando atrasos. A academia ainda conta com um sistema de ficar imprimindo as séries de exercício em folhas de papel, o que gera um gasto desnecessário de folhas, pois com frequência o aluno acaba perdendo a folha e tendo sempre que imprimir novamente.<br>
-O site planejado promete centralizar e organizar todas essas funções, o aluno poderá de sua casa se cadastrar na academia, e lá ele poderá acompanhar seu desenvolvimento, sua série de exercícios, o dia do seu renovar sua mensalidade, horários de funcionamento e etc. Professores poderão ver os seus horários trabalho, uma lista de todos os alunos matriculados na academia, dia de pagamento e edição de desenvolvimento de alunos para um melhor acompanhamento e melhor desempenho e melhores resultados. Já o gerente da academia tem acesso a os dias de pagamento dos professores, e o dia de renovar a mensalidade dos alunos, acompanhamento de alunos, pessoas matriculadas, para um melhor controle da sua academia.<br>
+Somos uma plataforma que cuida da criação de diversos sites para academias, o site planejado promete centralizar e organizar todas essas funções, o aluno poderá de sua casa se cadastrar na academia, e lá ele poderá acompanhar seu desenvolvimento, sua série de exercícios, o dia do seu renovar sua mensalidade, horários de funcionamento e etc. Professores poderão ver os seus horários trabalho, uma lista de todos os alunos matriculados na academia, dia de pagamento e edição de desenvolvimento de alunos para um melhor acompanhamento e melhor desempenho e melhores resultados. Já o gerente da academia tem acesso a os dias de pagamento dos professores, e o dia de renovar a mensalidade dos alunos, acompanhamento de alunos, pessoas matriculadas, para um melhor controle da sua academia.<br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
@@ -97,7 +97,9 @@ https://github.com/MRMaken/Trabalho01/blob/master/GAP_TrabalhoBD_Create.sql
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
 
-Os dados usados são referências à gostos pessoais da dupla, não foi reutilizado nenhum codigo, exceto os aprendidos em sala de aula, o trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas.
+Os dados usados são referências à gostos pessoais da dupla, foi utilizado um codigo que serve para fazer chaves compostas que não foi ensinado em sala pois não se foi necessária até aquele momento. O trabalho foi baseado em uma ideia do grupo em fazer algum sistema voltado para empresas, usamos como ajuda na resolução das duvidas uma playlist do youtube com um curso completo de mysql.
+https://www.youtube.com/watch?v=Ofktsne-utM&index=1&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&spfreload=5
+
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 
@@ -359,9 +361,7 @@ https://github.com/MRMaken/Trabalho01/blob/master/Slides%20Academia.odp
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
 A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, por conta disso tivemos de refazer-lo diversas vezes, no momento de fazer alguns inner joins tivemos alguns dificuldades para ligar todas as tabelas, pois as vezes o comando funcionava, mas nem sempre mostrava o que queriamos e tinhamos que tentar varias vezes até dar certo, e na hora de fazer subconsultas tinhamos dificuldade, pois mesmo sabendo o para que servia a gente não conseguia usar ela em nosso banco. 
-Foi utilizado como ajuda para criação do banco um curso no youtube que ajudou na resolução de algumas duvidas.
 
-https://www.youtube.com/watch?v=Ofktsne-utM&index=1&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&spfreload=5
 
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
