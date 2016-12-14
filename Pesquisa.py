@@ -14,7 +14,6 @@ api = tweepy.API(auth)
 busca = ["Game" or "Game Indie" or "Game Indies" or "game indie" or "game" or "Indie Game" or "indie games"]
 pesquisa = api.search(q=busca)
 
-
 for recebe in pesquisa:
     nome = recebe.user.screen_name
     localidade = recebe.user.location
