@@ -408,10 +408,10 @@ https://github.com/MRMaken/Trabalho01/blob/master/Slides%20Academia.odp
 ###11   TRABALHO DO TWITTER<br>
 
 Banco de Dados<br>
-https://www.pythonanywhere.com/user/MRMaken/files/home/MRMaken/Academia/bdAcademiaTwitter.py?edit
+https://github.com/MRMaken/Trabalho01/blob/master/bdAcademiaTwitter
 
 Buscador de Informações<br>
-https://www.pythonanywhere.com/user/MRMaken/files/home/MRMaken/Academia/AcademiaTwitter.py?edit
+https://github.com/MRMaken/Trabalho01/blob/master/Info_twitter
 
 ###12	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
