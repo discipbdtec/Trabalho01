@@ -371,7 +371,7 @@ where preço < 40;**<br>
 [Slides](https://drive.google.com/open?id=0B1s9xG9KM9-wb2lqdFRqV2Y2TkE)
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-    Não houveram grandes dificuldades para a realização do trabalho, exceto na utilização do BrModelo, do MySQL, que por vezes não aceitava realizar a conexão e por detalhes que, por vezes, passaram despercebidos no desenvolvimentos do bando de dados.    
+Não houveram grandes dificuldades para a realização do trabalho, exceto na utilização do BrModelo, do MySQL, que por vezes não aceitava realizar a conexão e por detalhes que, por vezes, passaram despercebidos no desenvolvimentos do bando de dados.    <br>
     
 ###12 Trabalho de Rede Social<br>
 [Banco de Dado](https://github.com/gustavovictor/Trabalho01/blob/patch-1/DateBase.py?raw=true "Banco de Dado")<br>
