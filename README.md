@@ -332,14 +332,41 @@ on(Usuario.Matricula = Acompanha.Matricula_Aluno);
 
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View%20_mensalidadeAluno.jpg?raw=true "Mensalidade do Aluno")
+create View Valor_pago_por_aluno AS 
+Select Usuario.Nome_Completo, pagamento_aluno.Valor_Pagamento From usuario
+inner join pagamento_aluno
+on usuario.matricula = pagamento_aluno.Matricula_Aluno;
+Select * from Valor_pago_por_aluno;
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View_SalarioProf.jpg?raw=true "Salario Professor")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.1.jpg?raw=true "Mensalidade do Aluno")
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/View_CNPJ.jpg?raw=true "CNPJ Gerente")
+Create View Valor_salario_Professor AS 
+Select Usuario.Nome_Completo, professor.salario From usuario
+inner join professor
+on usuario.matricula = professor.Matricula_Professor;
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SelfJoin1.png?raw=true "Self Join1")
+Select * from Valor_salario_Professor;
 
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.2.jpg?raw=true "Salario Professor")
+
+Create View CNPJ_gerente AS 
+Select Usuario.Nome_Completo, gerente.CNPJ From usuario
+inner join gerente
+on usuario.matricula = gerente.Matricula_gerente;
+
+Select * from CNPJ_gerente;
+
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.3.jpg?raw=true "CNPJ Gerente")
+
+select * from Usuario
+join Acompanha on Acompanha.Matricula_Aluno = Usuario.Matricula
+join Usuario as Usuario2 on Acompanha.Matricula_Professor = Usuario2.Matricula
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.4.jpg?raw=true "Self Join1")
+
+
+select * from Usuario
+join Professor on Professor.Matricula_Professor = Usuario.Matricula
+join Usuario as Usuario2 on Professor.Matricula_Gerente = Usuario2.Matricula
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SelfJoin2.png?raw=true "Self Join2")
 
 Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
