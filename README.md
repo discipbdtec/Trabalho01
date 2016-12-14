@@ -369,7 +369,7 @@ select * from Usuario
 join Professor on Professor.Matricula_Professor = Usuario.Matricula
 join Usuario as Usuario2 on Professor.Matricula_Gerente = Usuario2.Matricula
 
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.5.png?raw=true "Self Join2")
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.5.jpgraw=true "Self Join2")
 
 
 
