@@ -3,7 +3,7 @@ import sqlalchemy
 import MySQLdb
 from sqlalchemy import create_engine
 
-parametros_conexao='mysql://MRMaken:*******@MRMaken.mysql.pythonanywhere-services.com/MRMaken$dbAcademiaTwitter?charset=utf8'
+parametros_conexao='mysql://MRMaken:matheus20@MRMaken.mysql.pythonanywhere-services.com/MRMaken$dbAcademiaTwitter?charset=utf8'
 
 engine = create_engine(parametros_conexao)
 conn = engine.connect()
