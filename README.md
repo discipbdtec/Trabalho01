@@ -361,15 +361,17 @@ Select * from CNPJ_gerente;
 select * from Usuario
 join Acompanha on Acompanha.Matricula_Aluno = Usuario.Matricula
 join Usuario as Usuario2 on Acompanha.Matricula_Professor = Usuario2.Matricula
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.4.jpg?raw=true "Self Join1")
 
 
 select * from Usuario
 join Professor on Professor.Matricula_Professor = Usuario.Matricula
 join Usuario as Usuario2 on Professor.Matricula_Gerente = Usuario2.Matricula
-![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SelfJoin2.png?raw=true "Self Join2")
 
-Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.9.sql
+![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/9.9.5.png?raw=true "Self Join2")
+
+
 
 ####9.10	SUBCONSULTAS<br>
 
