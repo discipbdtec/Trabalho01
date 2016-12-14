@@ -375,13 +375,31 @@ join Usuario as Usuario2 on Professor.Matricula_Gerente = Usuario2.Matricula
 
 ####9.10	SUBCONSULTAS<br>
 
+Select * from usuario
+where sexo in(
+select sexo from usuario 
+where sexo = "F");
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta1.png?raw=true "SubConsulta1")
+
+select * from usuario
+inner join professor
+on professor.Matricula_Professor = usuario.Matricula
+where turno in(
+select Turno from professor
+where turno<>"Vespertino");
 
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta2.png?raw=true "SubConsulta2")
 
+select * from usuario
+inner join pagamento_aluno 
+on pagamento_aluno.Matricula_Aluno=usuario.Matricula
+where valor_pagamento in(
+select valor_pagamento from pagamento_aluno
+where Valor_Pagamento>=80.00);
+
 ![Alt text](https://github.com/MRMaken/Trabalho01/blob/master/SubConsulta3.png?raw=true "SubConsulta3")
 
-Script Comandos: https://github.com/MRMaken/Trabalho01/blob/master/9.10.sql
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
