@@ -407,6 +407,12 @@ https://github.com/MRMaken/Trabalho01/blob/master/Slides%20Academia.odp
 
 ###11   TRABALHO DO TWITTER<br>
 
+Banco de Dados<br>
+https://www.pythonanywhere.com/user/MRMaken/files/home/MRMaken/Academia/bdAcademiaTwitter.py?edit
+
+Buscador de Informações<br>
+https://www.pythonanywhere.com/user/MRMaken/files/home/MRMaken/Academia/AcademiaTwitter.py?edit
+
 ###12	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
 A dificuldade encontrada pelo grupo, ocorreu na criação do banco, foram encontradas diversas irregularidades, por conta disso tivemos de refazer-lo diversas vezes, no momento de fazer alguns inner joins tivemos alguns dificuldades para ligar todas as tabelas, pois as vezes o comando funcionava, mas nem sempre mostrava o que queriamos e tinhamos que tentar varias vezes até dar certo, e na hora de fazer subconsultas tinhamos dificuldade, pois mesmo sabendo o para que servia a gente não conseguia usar ela em nosso banco. 
