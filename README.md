@@ -24,6 +24,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBD.jpg?raw=true "Modelo Conceitual")
     
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+\![Alt text] (https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")\
 
 ####5.1 Validação do Modelo Conceitual
 Grupo 1: Estêvão Segatto, Matheus Lopes<br>
