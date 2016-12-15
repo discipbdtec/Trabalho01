@@ -17,7 +17,6 @@ Os usuarios, não necessariamente desenvolvedores, mas pessoas comuns que podem 
 Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir deste log in eles poderam visualizar os jogos, comentarem e avaliarem os mesmo. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-
 [Link PDF Mockups](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Projeto_UniversoIndie.pdf)
 
 ###5	MODELO CONCEITUAL<br>
@@ -25,7 +24,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBD.jpg?raw=true "Modelo Conceitual")
     
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")
+/*![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")/*
 
 ####5.1 Validação do Modelo Conceitual
 Grupo 1: Estêvão Segatto, Matheus Lopes<br>
@@ -40,13 +39,12 @@ Informações especificas de cada jogo:<br>
     Data de lançamento, preço, capa, descrição, trailer, nome, link do jogo, requisitos de sistema e generos.
 
 ####5.3 DESCRIÇÃO DOS DADOS     
-Tabela Login <br>
+**Tabela Login** <br>
 Senha: uma string podendo conter caracteres de todos os tipos.<br>
 Nick: uma string podendo conter caracteres de todos os tipos e que não pode se repetir.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-
-Tabela Pessoa <br>
+**Tabela Pessoa** <br>
 Nome: o nome da pessoa.<br>
 CPF: um valor inteiro.<br>
 Nick: uma string podendo conter caracteres de todos os tipos e que não pode se repetir.<br>
@@ -59,26 +57,22 @@ Senha: uma string podendo conter caracteres de todos os tipos.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-
-Tabela Genero <br>
+**Tabela Genero **<br>
 Descricao: descrição do genero.<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-
-Tabela Desenvolvedor<br>
+**Tabela Desenvolvedor**<br>
 Nome_Desenvolverdor: o nome do desenvolvidor ou da empresa que desenvolve.<br>
 id_desenvolvedor: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Usuario <br>
+**Tabela Usuario **<br>
 id_user: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Jogo<br>
+**Tabela Jogo**br>
 Requisitos_de_Sistema: as necessidades de hardware para cada jogo.<br>
 data_lancamento: data de lançamento do jogo.<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
@@ -90,41 +84,35 @@ Capa: link para capa do jogo.<br>
 Preço: valor de compra para a compra do jogo, podendo ser nulo.<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Contato<br>
+**Tabela Contato**<br>
 Contato_PK: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 Tipo: tipo de cada contato.<br>
 Descricao: descrição desse contato.<br>
 Cod_tipo: codigo do tipo.<br>
 id_tipo_FK: tipo de contato.<br>
 <br>
-
-Tabela Visualizou<br>
+**Tabela Visualizou**<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tablea Contem <br>
+**Tablea Contem** <br>
 id_genero: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Usuario_Avaliaçao <br>
+**Tabela Usuario_Avaliaçao **<br>
 Avaliaçao: avaliação do jogo.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Usuario_Comentario <br>
+**Tabela Usuario_Comentario** <br>
 Comentario: comentario do usuario.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-
-Tabela Pertence<br>
+**Tabela Pertence**<br>
 id_desenvolvedor: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
@@ -134,19 +122,15 @@ id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
     
 ###7	MODELO FÍSICO<br>
 [Modelo Físico - SQL](https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGame.sql)
-
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-Detalhamento sobre as informações e processo de obtenção ou geração dos dados.<br>
-Referenciar todas as fontes referentes a:<br>
 Geramos dados apartir de jogos de nosso conhecimento, uma vez que possuimos forte envolvimento na área, como jogadores;<br>
 Não houve reutilização de códigos;<br>
 Basicamento estudos realizados nas aulas de Banco de Dados;<br>
 Um desenvolvimento que levou como referência em certos pontos o site da empresa Stream.<br>
 
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-
 [Insert - SQL](https://github.com/gustavovictor/Trabalho01/blob/patch-1/IndieGameInsert.sql)
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
@@ -214,7 +198,6 @@ where Link_do_Jogo = null;**<br>
 from Pessoa <br>
 where cidade = "Catalao";**<br>
 ![Alt text](https://raw.githubusercontent.com/gustavovictor/Trabalho01/patch-1/cons3.png?raw=true "Title")
-    
     
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 **select requisitos_de_sistema as "Do que voce precisa" <br>
@@ -374,11 +357,7 @@ where preço < 40;**<br>
 Não houveram grandes dificuldades para a realização do trabalho, exceto na utilização do BrModelo, do MySQL, que por vezes não aceitava realizar a conexão e por detalhes que, por vezes, passaram despercebidos no desenvolvimentos do bando de dados.    <br>
     
 ###12 Trabalho de Rede Social<br>
-[Banco de Dado](https://github.com/gustavovictor/Trabalho01/blob/patch-1/DateBase.py?raw=true "Banco de Dado")<br>
 [Pesquisa](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Pesquisa.py?raw=true "Pesquisa")<br>
+[Banco de Dado](https://github.com/gustavovictor/Trabalho01/blob/patch-1/DateBase.py?raw=true "Banco de Dado")<br>
     
 ###13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
-
-
-
-
