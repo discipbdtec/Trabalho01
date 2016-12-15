@@ -57,7 +57,7 @@ Senha: uma string podendo conter caracteres de todos os tipos.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-**Tabela Genero ** <br>
+**Tabela Genero** <br>
 Descricao: descrição do genero.<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
@@ -67,7 +67,7 @@ id_desenvolvedor: um valor inteiro, não nulo, para cada login (chave primaria).
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Usuario ** <br>
+**Tabela Usuario** <br>
 id_user: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
@@ -100,7 +100,7 @@ id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Usuario_Avaliaçao ** <br>
+**Tabela Usuario_Avaliaçao** <br>
 Avaliaçao: avaliação do jogo.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
