@@ -24,7 +24,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 ![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBD.jpg?raw=true "Modelo Conceitual")
     
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-\![Alt text] (https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")\
+![Alt text] (https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")
 
 ####5.1 Validação do Modelo Conceitual
 Grupo 1: Estêvão Segatto, Matheus Lopes<br>
@@ -57,22 +57,22 @@ Senha: uma string podendo conter caracteres de todos os tipos.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-**Tabela Genero **<br>
+**Tabela Genero ** <br>
 Descricao: descrição do genero.<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 <br>
-**Tabela Desenvolvedor**<br>
+**Tabela Desenvolvedor** <br>
 Nome_Desenvolverdor: o nome do desenvolvidor ou da empresa que desenvolve.<br>
 id_desenvolvedor: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Usuario **<br>
+**Tabela Usuario ** <br>
 id_user: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Jogo**br>
+**Tabela Jogo** <br>
 Requisitos_de_Sistema: as necessidades de hardware para cada jogo.<br>
 data_lancamento: data de lançamento do jogo.<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
@@ -84,14 +84,14 @@ Capa: link para capa do jogo.<br>
 Preço: valor de compra para a compra do jogo, podendo ser nulo.<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Contato**<br>
+**Tabela Contato** <br>
 Contato_PK: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 Tipo: tipo de cada contato.<br>
 Descricao: descrição desse contato.<br>
 Cod_tipo: codigo do tipo.<br>
 id_tipo_FK: tipo de contato.<br>
 <br>
-**Tabela Visualizou**<br>
+**Tabela Visualizou** <br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
@@ -100,7 +100,7 @@ id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_genero: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Usuario_Avaliaçao **<br>
+**Tabela Usuario_Avaliaçao ** <br>
 Avaliaçao: avaliação do jogo.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
@@ -112,7 +112,7 @@ id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
-**Tabela Pertence**<br>
+**Tabela Pertence** <br>
 id_desenvolvedor: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_jogo: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 <br>
