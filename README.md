@@ -21,7 +21,7 @@ Tanto o desenvolver e o usuario são pessoas, ambos possuim log in, a partir des
 
 ###5	MODELO CONCEITUAL<br>
 ####5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBD.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/gustavovictor/Trabalho01/blob/patch-1/Modelo_CBDFinal.jpg?raw=true "Modelo Conceitual")
     
 ####5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 ![Alt text] (https://github.com/gustavovictor/Trabalho01/blob/patch-1/aaasa.jpg "Modelo UML")
@@ -48,14 +48,37 @@ id_login: um valor inteiro, não nulo, para cada login (chave primaria).<br>
 Nome: o nome da pessoa.<br>
 CPF: um valor inteiro.<br>
 Nick: uma string podendo conter caracteres de todos os tipos e que não pode se repetir.<br>
-País: pais de origem.<br>
-Municipio: onde mora.<br>
-CEP: onde mora.<br>
-Estado: onde mora.<br>
-Cidade: onde mora<br>
+\País: pais de origem.\
+\Bairro: onde mora.\
+\CEP: onde mora.\
+\Estado: onde mora.\
+\Cidade: onde mora.\
 Senha: uma string podendo conter caracteres de todos os tipos.<br>
 id_login: um valor inteiro, não nulo, para cada login (chave estrangeira).<br>
 id_tipo: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+<br>
+**Tabela Endereço** <br>
+cod_endereco: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+Descricao: que tipo de endereço.<br>
+<br>
+**Tabela CEP** <br>
+NumCEP: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+<br>
+**Tabela Bairro** <br>
+cod_bairro: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+DescricaoBairro: nome do bairro.<br>
+<br>
+**Tabela Cidade** <br>
+cod_cidade: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+DescricaoCidade: nome da cidade.<br>
+<br>
+**Tabela Estado** <br>
+cod_estado: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+DescricaoEstado: nome do estado.<br>
+<br>
+**Tabela Pais** <br>
+cod_Pais: um valor inteiro, não nulo, para cada login (chave primaria).<br>
+DescricaoPais: nome da Pais.<br>
 <br>
 **Tabela Genero** <br>
 Descricao: descrição do genero.<br>
