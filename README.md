@@ -1,10 +1,10 @@
-# TRABALHO 01
-Consultas Online 
+# Consultas Online 
 
 # Sumário
 
 ### 1.COMPONENTES<br>
 João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
+Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
