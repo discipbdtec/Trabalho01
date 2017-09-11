@@ -10,7 +10,16 @@ João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
 
 ### 3.MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+O aplicativo foi criado com a intenção de ficar mais prático a marcação de consultas
+e saber qual consultório fica mais perto do paciente, o aplicativo consiste com dois
+logins, uma para o médico entrar e colocar os horários que estará disponível e ver o
+perfil do paciente (usuário), para então ligar para confirmar a consulta, e o outro
+será para o paciente (usuário) entrar e criar o seu perfil onde poderá colocar suas
+Especificações, seu Telefone e etc.. No aplicativo ele poderá procurar os médicos
+perto da sua localização e então ver o médico que necessita, a partir daí marcar a
+consulta de acordo com seu horário livre, depois só esperar o médico retornar para
+confirmar a consulta. <br>
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
