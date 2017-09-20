@@ -41,38 +41,23 @@ https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+     
+    a) Campo pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
+    Campo endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
+    b) Essas decisões foram tomadas com o objetivo de otimizar nosso banco de dados e deixar-lo melhor para o uso dos clientes!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    CLIENTE: Tabela que armazena as informações relativas ao cliente.
+    PESSOAS : Tabela que armazena as informações que todas as pessoas que acessarem o banco vao precisar.
+    CONSULTAS : Campo que contém as informações necessárias a serem infornecidas sobre cada consulta que será realizada.
+    CLINICA : Tabela que armazena as informações relativas a clínica onde o cliente fará sua consulta.
+    ENDEREÇO : Tabela que contém as informações do endereço do médico, do cliente e da clinica.
+    MÉDICO : Tabela que contém as informações relativas ao médico.        
 
 ### 6	MODELO LÓGICO<br>
-
-![bcbdfgbdfbdfgbdf](https://user-images.githubusercontent.com/31417932/30657586-7551ba2a-9e0e-11e7-9f46-9741f24618b3.jpg)
-
-
-
-
-
-
 ### 7	MODELO FÍSICO<br>
-
-[modelo fisico.txt](https://github.com/discipbdtec/Trabalho01/files/1318607/modelo.fisico.txt)
-
-
-
-
-
-
 
         Entrega até este ponto em (data a ser definida)
         
