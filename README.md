@@ -57,7 +57,17 @@ https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
     MÉDICO : Tabela que contém as informações relativas ao médico.        
 
 ### 6	MODELO LÓGICO<br>
+
+![bcbdfgbdfbdfgbdf](https://user-images.githubusercontent.com/31417932/30657586-7551ba2a-9e0e-11e7-9f46-9741f24618b3.jpg)
+
+
+
+
 ### 7	MODELO FÍSICO<br>
+
+[modelo fisico.txt](https://github.com/discipbdtec/Trabalho01/files/1318607/modelo.fisico.txt)
+
+
 
         Entrega até este ponto em (data a ser definida)
         
