@@ -1,23 +1,31 @@
-# TRABALHO 01
-Trabalho desenvolvido durante a disciplina de BD
+# Consultas Online 
 
 # Sumário
 
 ### 1.COMPONENTES<br>
-Integrantes do grupo<br>
+João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
+Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
 
 ### 3.MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+O aplicativo foi criado com a intenção de ficar mais prático a marcação de consultas
+e saber qual consultório fica mais perto do paciente, o aplicativo consiste com dois
+logins, uma para o médico entrar e colocar os horários que estará disponível e ver o
+perfil do paciente (usuário), para então ligar para confirmar a consulta, e o outro
+será para o paciente (usuário) entrar e criar o seu perfil onde poderá colocar suas
+Especificações, seu Telefone e etc.. No aplicativo ele poderá procurar os médicos
+perto da sua localização e então ver o médico que necessita, a partir daí marcar a
+consulta de acordo com seu horário livre, depois só esperar o médico retornar para
+confirmar a consulta. <br>
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+![teste](https://user-images.githubusercontent.com/31417932/30292162-90761878-970b-11e7-9049-ba2c5685ae3a.jpg)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
@@ -32,7 +40,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![2017-09-12](https://user-images.githubusercontent.com/31417932/30355999-20c9de80-980d-11e7-9f28-4e4a424cab31.png)
+
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -42,19 +51,20 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+     
+    a) Campo pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
+    Campo endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
+    b) Essas decisões foram tomadas com o objetivo de otimizar nosso banco de dados e deixar-lo melhor para o uso dos clientes!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    CLIENTE: Tabela que armazena as informações relativas ao cliente.
+    PESSOAS : Tabela que armazena as informações que todas as pessoas que acessarem o banco vao precisar.
+    CONSULTAS : Campo que contém as informações necessárias a serem infornecidas sobre cada consulta que será realizada.
+    CLINICA : Tabela que armazena as informações relativas a clínica onde o cliente fará sua consulta.
+    ENDEREÇO : Tabela que contém as informações do endereço do médico, do cliente e da clinica.
+    MÉDICO : Tabela que contém as informações relativas ao médico.        
 
 ### 6	MODELO LÓGICO<br>
 ### 7	MODELO FÍSICO<br>    
