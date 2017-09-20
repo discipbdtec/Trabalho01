@@ -66,6 +66,14 @@ https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
 
 ### 7	MODELO FÍSICO<br>
 
+[modelo fisico.txt](https://github.com/discipbdtec/Trabalho01/files/1318607/modelo.fisico.txt)
+
+
+
+
+
+
+
         Entrega até este ponto em (data a ser definida)
         
  
