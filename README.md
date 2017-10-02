@@ -38,8 +38,8 @@ https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Sergio Vago e Isabela de assis]
+    [Grupo02]: [Ramon e Jean]
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
