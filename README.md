@@ -75,6 +75,14 @@ https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
+
+
+[trabb.txt](https://github.com/discipbdtec/Trabalho01/files/1350132/trabb.txt)
+
+
+
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
