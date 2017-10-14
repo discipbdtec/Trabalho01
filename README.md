@@ -7,7 +7,9 @@ João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
 Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+
+
+<br>
 
 ### 3.MINI-MUNDO<br>
 O aplicativo foi criado com a intenção de ficar mais prático a marcação de consultas
