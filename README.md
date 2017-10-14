@@ -9,8 +9,11 @@ Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
 A melhoria da saúde pública é um desses grandes desafios que o Brasil precisa vencer, principalmente quando avaliamos o Sistema Único de Saúde (SUS).
+
 Para garantir saúde pública de qualidade a toda população, o Brasil ainda precisa percorrer um longo caminho. A falta de médicos em regiões afastadas em contraponto à intensa concentração nas grandes cidades, além da dificuldade em conseguir atendimento no SUS são apenas alguns dos inúmeros problemas que atingem os brasileiros que tentam utilizar a saúde pública diariamente. 
+
 Para tentar amenizar um pouco desse problema, que é a crescente demora e dificuldade de conseguir atendimento no SUS, pensamos em aplicativo que pode tornar muito mais fácil a qualquer um que o tenha de ser atendido.
+
 A pessoa que obtiver esse aplicativo em mãos poderá marcar sua consulta ou exame em algum horário de sua preferência ( desde que esse horário esteja disponível para o médico em questão ). Isso fará com que o cliente não fique esperando em filas para marcar sua consulta ou que não dependa de terceiros para marcarem em uma hora inconveniente.  Esse aplicativo tornará a marcação de consultas e exames, em geral, muito mais prática, simples e pertinente.
 
 
