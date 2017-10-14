@@ -12,22 +12,16 @@ Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 <br>
 
 ### 3.MINI-MUNDO<br>
-O aplicativo foi criado com a intenção de ficar mais prático a marcação de consultas
-e saber qual consultório fica mais perto do paciente, o aplicativo consiste com dois
-logins, uma para o médico entrar e colocar os horários que estará disponível e ver o
-perfil do paciente (usuário), para então ligar para confirmar a consulta, e o outro
-será para o paciente (usuário) entrar e criar o seu perfil onde poderá colocar suas
-Especificações, seu Telefone e etc.. No aplicativo ele poderá procurar os médicos
-perto da sua localização e então ver o médico que necessita, a partir daí marcar a
-consulta de acordo com seu horário livre, depois só esperar o médico retornar para
-confirmar a consulta. <br>
+
+
+_____________________________________________________
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 [agende.pdf](https://github.com/discipbdtec/Trabalho01/files/1338085/agende.pdf)
 
-https://agendemedic.mybalsamiq.com/projects/agende/grid<br>
+
 
 ![teste](https://user-images.githubusercontent.com/31417932/30292162-90761878-970b-11e7-9049-ba2c5685ae3a.jpg)
 
