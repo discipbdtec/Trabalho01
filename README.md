@@ -26,7 +26,7 @@ O aplicativo foi criado com o objetivo de facilitar a marcação de consulta e t
 
 Para a marcação de consultas o paciente entrará com os dados: nome, login, senha, sexo, número de telefone, data a nascimento, endereço, etc. Quando o paciente for entrar na sua conta no sistema, ele deverá escolher a opção de "logar como paciente" e somente assim será exigido seu login e senha. Os dados do paciente ficaram armazenados podendo ser editados a qualquer momento. 
 
-Os médicos também deverão ser cadastrados no , sistema. Devendo inserir endereço, telefone, data de nascimento, sexo, especialidade, número de registro e clínica no qual atua. A clinica cadastrada também deverá inserir os dados como nome, endereço, cnpj, telefone e planos atendidos na mesma. O médico após a ter realizado o cadastro será capaz de fazer o login em sua conta e editar as informações de seu perfil. Podendo apenas um paciente por horário. O paciente tem a possibilidade de desmarcar e assim possibilitar que outra pessoa possa marcar e os médicos não fiquem com horários vagos.
+Os médicos também deverão ser cadastrados no , sistema. Devendo inserir endereço, telefone, data de nascimento, sexo, especialidade, número de registro e clínica no qual atua. A clinica para ser cadastrada, também deverá inserir os dados como nome, endereço, cnpj, telefone e planos atendidos na mesma. O médico após a ter realizado o cadastro será capaz de fazer o login em sua conta e editar as informações de seu perfil. Podendo apenas um paciente por horário. O paciente tem a possibilidade de desmarcar e assim possibilitar que outra pessoa possa marcar e os médicos não fiquem com horários vagos.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
