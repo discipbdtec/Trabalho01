@@ -126,3 +126,38 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
         Entrega até este ponto em (data a ser definida)
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+
+
+
+#####################################################
+
+Trabalho de APS
+
+Requisitos
+
+Caso 1 - Medico
+RF001 : Cadastrar médico
+RNF001: Mostrar perfil
+RF002 : Fazer login
+RF003 : Disponibilizar horários
+RF004 : Dar dicas de prevenção de doenças e primeiros socorros
+
+Caso 2 - Cliente
+RF004: Cadastrar cliente
+RF005 : Fazer login
+RF006: Buscar consultorio e buscar medico
+RF006: Marcar consulta / exame
+RF007: Desmarcar consulta / exame
+RF008: Criar lembretes o observações
+RNF002: Mostrar perfil
+RNF003: Indicar local mais próximo
+RNF004: Mostrar avaliação do medico
+RNF005: Visualizar horários disponiveis
+
+
+Caso 3 - Administrador:
+RF001: Fazer classificação internacional de doenças
+RF002: Criar chat com médicos e outros pacientes
+RF003: Enviar ambulância mais próxima a pacientes em caso de emergência
+RF004: Enviar mensagem ao paciente para lembrar de consultas marcadas
