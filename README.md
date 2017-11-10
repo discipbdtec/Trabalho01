@@ -68,7 +68,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 6	MODELO LÓGICO<br>
 
-![bcbdfgbdfbdfgbdf](https://user-images.githubusercontent.com/31417932/30657586-7551ba2a-9e0e-11e7-9f46-9741f24618b3.jpg)
+![fdfdsf](https://user-images.githubusercontent.com/26657007/32666339-41b3a02e-c61e-11e7-8d32-51325402eca8.png)
 
 
 
