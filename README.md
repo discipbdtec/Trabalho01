@@ -75,11 +75,10 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 7	MODELO FÍSICO<br>
 
-[modelo fisico.txt](https://github.com/discipbdtec/Trabalho01/files/1318607/modelo.fisico.txt)
+
+[WinsBd.txt](https://github.com/discipbdtec/Trabalho01/files/1464586/WinsBd.txt)
 
 
-
-        Entrega até este ponto em (data a ser definida)
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
