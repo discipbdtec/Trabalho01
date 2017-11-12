@@ -39,7 +39,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![efefwe](https://user-images.githubusercontent.com/26657007/32668285-4307a8ca-c624-11e7-898e-30f661f35885.png)
+![captura de tela 37 _edited](https://user-images.githubusercontent.com/26657007/32698569-029c2f92-c78f-11e7-95c1-6db3d8702d86.jpg)
 
 
     
@@ -68,7 +68,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 6	MODELO LÓGICO<br>
 
-![dwdwdq](https://user-images.githubusercontent.com/26657007/32668284-42e7a106-c624-11e7-88ce-3675eba28677.png)
+![captura de tela 36 _edited](https://user-images.githubusercontent.com/26657007/32698568-02733f92-c78f-11e7-9496-b986c7051979.jpg)
 
 
 
