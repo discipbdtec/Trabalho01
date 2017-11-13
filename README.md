@@ -104,6 +104,8 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
+[9 - Trabalho.txt](https://github.com/discipbdtec/Trabalho01/files/1467826/9.-.Trabalho.txt)
+
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
