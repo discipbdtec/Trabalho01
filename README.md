@@ -49,13 +49,13 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 #### 5.2 DECISÕES DE PROJETO
      
-    a) Campo pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
-    Campo endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
-    b) Essas decisões foram tomadas com o objetivo de otimizar nosso banco de dados e deixar-lo melhor para o uso dos clientes!
+    Tabela pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
+    Tabela endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
+    Tabela contatos: Optamos por isso devido ao fato de cada pessoa pode ter 1 ou mais contatos, ou seja, facilitaria a vida dela  com isso.
+    Essas decisões foram tomadas com o objetivo de otimizar o banco de dados e deixar-lo melhor para o uso dos Pacientes.
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
+
     PACIENTE: Tabela que armazena as informações relativas ao cliente.
     PESSOAS : Tabela que armazena as informações da herança que tanto o paciente quanto o médico poderá ter.
     CONSULTAS : Tabela que contém as informações necessárias a serem fornecidas sobre cada consulta que será realizada.
