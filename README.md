@@ -126,6 +126,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 ![9 9](https://user-images.githubusercontent.com/31863030/32740311-b320bd88-c889-11e7-8767-19469589d3db.png)
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+![9 10](https://user-images.githubusercontent.com/31863030/32740336-cb4a34b6-c889-11e7-9db0-f2fc89814d7f.png)
 
 
 
