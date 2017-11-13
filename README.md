@@ -38,19 +38,16 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 ### 5.MODELO CONCEITUAL<br>
-    a) NOTACAO ENTIDADE RELACIONAMENTO
 ![captura de tela 37 _edited](https://user-images.githubusercontent.com/26657007/32698569-029c2f92-c78f-11e7-95c1-6db3d8702d86.jpg)
 
 
-    
-    b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+   
 
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Sergio Vago e Isabela de assis]
     [Grupo02]: [Ramon e Jean]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
      
     a) Campo pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
     Campo endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
@@ -103,10 +100,10 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         c) inclusão das instruções para execução de outros procedimentos necessários
 
 
-        Entrega até este ponto em (data a ser definida)
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
@@ -114,11 +111,20 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em (data a ser definida)
-        
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+
+
+
+
+
+#####################################################
+
+
+
+
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
