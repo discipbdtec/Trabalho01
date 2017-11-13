@@ -56,12 +56,13 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    CLIENTE: Tabela que armazena as informações relativas ao cliente.
-    PESSOAS : Tabela que armazena as informações que todas as pessoas que acessarem o banco vao precisar.
-    CONSULTAS : Campo que contém as informações necessárias a serem infornecidas sobre cada consulta que será realizada.
+    PACIENTE: Tabela que armazena as informações relativas ao cliente.
+    PESSOAS : Tabela que armazena as informações da herança que tanto o paciente quanto o médico poderá ter.
+    CONSULTAS : Tabela que contém as informações necessárias a serem fornecidas sobre cada consulta que será realizada.
     CLINICA : Tabela que armazena as informações relativas a clínica onde o cliente fará sua consulta.
     ENDEREÇO : Tabela que contém as informações do endereço do médico, do cliente e da clinica.
     MÉDICO : Tabela que contém as informações relativas ao médico.        
+    CONTATO : Tabela que tem os tipo de contatos ( telefone, email, sinal de fumaça e etc )
 
 ### 6	MODELO LÓGICO<br>
 
