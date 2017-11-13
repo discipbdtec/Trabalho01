@@ -114,6 +114,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 ![9 3](https://user-images.githubusercontent.com/31863030/32740130-14725c6e-c889-11e7-9d76-d8f86c4ad6eb.png)
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+![9 4](https://user-images.githubusercontent.com/31863030/32740158-2a6a3294-c889-11e7-89b5-3f42d50ba361.png)
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
