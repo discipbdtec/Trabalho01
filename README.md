@@ -108,6 +108,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+![9 1](https://user-images.githubusercontent.com/31863030/32740016-bb1fd48e-c888-11e7-86c9-649618975e20.png)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
