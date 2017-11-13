@@ -122,6 +122,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 ![9 7](https://user-images.githubusercontent.com/31863030/32740261-83f05122-c889-11e7-9c85-7938818542e3.png)
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+![9 8](https://user-images.githubusercontent.com/31863030/32740288-9e8c4072-c889-11e7-9a1f-ce2d7b9fdd52.png)
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
 
