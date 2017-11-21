@@ -108,25 +108,24 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-![9 1](https://user-images.githubusercontent.com/31863030/32740016-bb1fd48e-c888-11e7-86c9-649618975e20.png)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
-![9 2](https://user-images.githubusercontent.com/31863030/32740102-fbc988ae-c888-11e7-8a98-1e83dd2a3987.png)
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-![9 3](https://user-images.githubusercontent.com/31863030/32740130-14725c6e-c889-11e7-9d76-d8f86c4ad6eb.png)
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
-![9 4](https://user-images.githubusercontent.com/31863030/32740158-2a6a3294-c889-11e7-89b5-3f42d50ba361.png)
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-![9 5](https://user-images.githubusercontent.com/31863030/32740182-417e5316-c889-11e7-8656-8167812a105f.png)
+
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
-![9 6](https://user-images.githubusercontent.com/31863030/32740221-60c46882-c889-11e7-85ee-bd343c58cb7e.png)
+
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-![9 7](https://user-images.githubusercontent.com/31863030/32740261-83f05122-c889-11e7-9c85-7938818542e3.png)
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
-![9 8](https://user-images.githubusercontent.com/31863030/32740288-9e8c4072-c889-11e7-9a1f-ce2d7b9fdd52.png)
+
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
-![9 9](https://user-images.githubusercontent.com/31863030/32740311-b320bd88-c889-11e7-8767-19469589d3db.png)
+
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
-![9 10](https://user-images.githubusercontent.com/31863030/32740336-cb4a34b6-c889-11e7-9db0-f2fc89814d7f.png)
+
 
 
 
