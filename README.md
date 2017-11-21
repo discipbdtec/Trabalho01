@@ -82,12 +82,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
 
-
-[Insert no trab.txt](https://github.com/discipbdtec/Trabalho01/files/1467623/Insert.no.trab.txt)
-
-
-
-
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
@@ -103,8 +97,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-
-[9 - Trabalho.txt](https://github.com/discipbdtec/Trabalho01/files/1467826/9.-.Trabalho.txt)
 
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
