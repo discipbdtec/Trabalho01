@@ -38,7 +38,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 ### 5.MODELO CONCEITUAL<br>
-![captura de tela 37 _edited](https://user-images.githubusercontent.com/26657007/32698569-029c2f92-c78f-11e7-95c1-6db3d8702d86.jpg)
+![modelo conceitual](https://user-images.githubusercontent.com/26657007/33447448-798cfbe0-d5ea-11e7-8bc2-df308a408c0c.png)
 
 
    
