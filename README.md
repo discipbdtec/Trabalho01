@@ -160,7 +160,6 @@ Trabalho de APS
     RF006: Buscar consultorio e buscar medico
     RF006: Marcar consulta / exame
     RF007: Desmarcar consulta / exame
-    RF008: Criar lembretes o observações
     RNF002: Mostrar perfil
     RNF003: Indicar local mais próximo
     RNF004: Mostrar avaliação do medico
@@ -168,7 +167,6 @@ Trabalho de APS
 
 
     Caso 3 - Administrador:
-    RF001: Fazer classificação internacional de doenças
-    RF002: Criar chat com médicos e outros pacientes
-    RF003: Enviar ambulância mais próxima a pacientes em caso de emergência
-    RF004: Enviar mensagem ao paciente para lembrar de consultas marcadas
+    RF001: Criar chat com médicos e outros pacientes
+    RF002: Enviar ambulância mais próxima a pacientes em caso de emergência
+    RF003: Enviar mensagem ao paciente para lembrar de consultas marcadas
