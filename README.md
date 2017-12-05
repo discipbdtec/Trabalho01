@@ -14,7 +14,7 @@ Para garantir saúde pública de qualidade a toda população, o Brasil ainda pr
 
 Para tentar amenizar um pouco desse problema, que é a crescente demora e dificuldade de conseguir atendimento no SUS, pensamos em aplicativo que pode tornar muito mais fácil a qualquer um que o tenha de ser atendido.
 
-A pessoa que obtiver esse aplicativo em mãos poderá marcar sua consulta ou exame em algum horário de sua preferência ( desde que esse horário esteja disponível para o médico em questão ). Isso fará com que o cliente não fique esperando em filas para marcar sua consulta ou que não dependa de terceiros para marcarem em uma hora inconveniente.  Esse aplicativo tornará a marcação de consultas e exames, em geral, muito mais prática, simples e pertinente.
+A pessoa que obtiver esse aplicativo em mãos poderá marcar sua consulta ou exame em algum horário de sua preferência ( desde que esse horário esteja disponível para o médico em questão. Isso fará com que o cliente não fique esperando em filas para marcar sua consulta ou que não dependa de terceiros para marcarem em uma hora inconveniente.  Esse aplicativo tornará a marcação de consultas e exames, em geral, muito mais prática, simples e pertinente.
 
 
 <br>
