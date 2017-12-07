@@ -189,15 +189,24 @@ on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 ![join3](https://user-images.githubusercontent.com/31863030/33743063-5ac3b2f0-db92-11e7-970c-0788b3525336.png)
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+select * from pessoa group by sexo
+
+
+select * from endereço group by logradouro
+
+
+select * from pessoa group by Data_Nsc
+
+
+
+select * from pessoa group by nome
+select * from endereço group by número
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
-
-
-
 
 #####################################################
 
