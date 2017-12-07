@@ -191,6 +191,7 @@ on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 select * from pessoa group by sexo
 
+![group](https://user-images.githubusercontent.com/31863030/33743315-749297b8-db93-11e7-805d-ba94bba79e26.png)
 
 select * from endereço group by logradouro
 
