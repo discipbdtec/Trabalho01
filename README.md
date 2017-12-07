@@ -215,6 +215,7 @@ select pessoa.nome, paciente.Plano_Sd from pessoa left outer join paciente on (p
 
 select pessoa.nome, paciente.Plano_Sd from pessoa right outer join paciente on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 
+![right](https://user-images.githubusercontent.com/31863030/33743672-fb7ab75a-db94-11e7-9034-b42f438a096e.png)
 
 select pessoa.nome, contato.descrição from pessoa right outer join contato on (pessoa.ID_Pssa = contato.ID_pssa)
 
