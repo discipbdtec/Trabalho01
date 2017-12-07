@@ -124,7 +124,7 @@ where Esp = 'cirurgião'
 select * from paciente
 where Plano_SD > 100000;
 
-
+![pl s](https://user-images.githubusercontent.com/31863030/33741708-8fc57e76-db8c-11e7-8c6f-abbda2cc1e9a.png)
 
 select * from endereço 
 where Logradouro = 'rua'
