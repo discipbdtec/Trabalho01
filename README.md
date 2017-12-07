@@ -134,6 +134,12 @@ where Logradouro = 'rua'
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
+select avg(horario) from consultas
+
+
+
+select sum(Número) from endereço 
+
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
