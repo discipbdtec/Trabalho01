@@ -174,6 +174,7 @@ inner join médico
 on (pessoa.ID_Pssa = médico.FK_Pessoa_ID_Pssa)
 
 
+![join](https://user-images.githubusercontent.com/31863030/33743010-283b14d6-db92-11e7-84c3-a78ea7d9caee.png)
 
 select pessoa.nome, contato.descrição from pessoa
 inner join contato
