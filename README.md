@@ -145,7 +145,7 @@ select sum(Número) from endereço
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 select * from médico where Esp like "c%"
 
-
+![lk](https://user-images.githubusercontent.com/31863030/33742306-ea853b4c-db8e-11e7-8ca7-a219d95d1b67.png)
 
 select * from pessoa where nome like "m%"
 
