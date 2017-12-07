@@ -88,8 +88,11 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
         a) obtenção dos dados
+        Dados obtidos atravéz de tabelas de outros bancos com nomes, epecialidade e outros dados. Endereços obtidos no google maps no estado do Espíto Santo
         b) obtenção de códigos reutilizados
+        Não teve códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
+        Aulas de BD em sala de aula e tutorias da internet
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
