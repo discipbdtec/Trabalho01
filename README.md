@@ -195,6 +195,7 @@ select * from pessoa group by sexo
 
 select * from endereço group by logradouro
 
+![group2](https://user-images.githubusercontent.com/31863030/33743351-95a2ed54-db93-11e7-8d2f-d53592ad6762.png)
 
 select * from pessoa group by Data_Nsc
 
