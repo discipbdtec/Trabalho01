@@ -176,4 +176,20 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
     RNF005: Visualizar horários disponíveis
 
 
+
+####  Casos de Uso
+
+![diagrama casos de uso](https://user-images.githubusercontent.com/26657007/33725848-8a1c4da6-db5a-11e7-8de0-e72a8f0a42e8.png)
+
+
+### Sequência
+
+![diagrama de sequencia](https://user-images.githubusercontent.com/26657007/33725850-8a69bda2-db5a-11e7-9c73-cd68969f56e4.png)
+
+
+### Atividades
+
+![diagrama de atividades](https://user-images.githubusercontent.com/26657007/33725849-8a44ec3e-db5a-11e7-9911-33d21afb19cf.png)
+
+
     
