@@ -205,6 +205,7 @@ select * from pessoa group by nome
 select * from endereço group by número
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+select pessoa.nome, contato.descrição from pessoa left outer join contato on (pessoa.ID_Pssa = contato.ID_pssa)
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
