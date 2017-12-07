@@ -119,7 +119,7 @@ SELECT * FROM PESSOA
 select * from Médico
 where Esp = 'cirurgião'
 
-
+![endereco](https://user-images.githubusercontent.com/31863030/33741738-b1fd2e4e-db8c-11e7-98d8-5797cf58ce3a.png)
 
 select * from paciente
 where Plano_SD > 100000;
