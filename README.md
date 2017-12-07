@@ -136,9 +136,17 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
+
+[DB-Apresentaçao.pptx](https://github.com/discipbdtec/Trabalho01/files/1539752/DB-Apresentacao.pptx)
+
+
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-        Entrega até este ponto em (data a ser definida)
+        Houve dificuldade na relação de tabelas e cardinalidade entre elas.
+        Vários problemas de relacionamento de tabelas, principalmente nas de endereço e contato.
+        Houve também dificuldade para fazer as heranças, dividir em pessoa fisica e juridica.
+        Dificuldade para rodar o físico no SQL.
+        Vários problemas em relação ter que mudar uma coisa no modelo conceitual e ter que mudar todo trabalho, ou mudar o fisico e             refazer tod o trabalho também.
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
@@ -148,7 +156,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 #####################################################
 
 
-Trabalho de APS
+###  Trabalho de APS
 
 ### Requisitos
 
@@ -157,21 +165,15 @@ Trabalho de APS
     RNF001: Mostrar perfil
     RF002 : Fazer login
     RF003 : Disponibilizar horários
-    RF004 : Dar dicas de prevenção de doenças e primeiros socorros
 
     Caso 2 - Cliente
     RF004: Cadastrar cliente
     RF005 : Fazer login
-    RF006: Buscar consultorio e buscar medico
+    RF006: Buscar consultório e buscar medico
     RF006: Marcar consulta / exame
     RF007: Desmarcar consulta / exame
     RNF002: Mostrar perfil
-    RNF003: Indicar local mais próximo
-    RNF004: Mostrar avaliação do medico
-    RNF005: Visualizar horários disponiveis
+    RNF005: Visualizar horários disponíveis
 
 
-    Caso 3 - Administrador:
-    RF001: Criar chat com médicos e outros pacientes
-    RF002: Enviar ambulância mais próxima a pacientes em caso de emergência
-    RF003: Enviar mensagem ao paciente para lembrar de consultas marcadas
+    
