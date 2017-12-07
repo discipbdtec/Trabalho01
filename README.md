@@ -169,7 +169,21 @@ delete from endereço where cep < 0
 delete from Bairro where ID_Bairro < 0
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+select nome,ID_pssa from pessoa
+inner join médico
+on (pessoa.ID_Pssa = médico.FK_Pessoa_ID_Pssa)
 
+
+
+select pessoa.nome, contato.descrição from pessoa
+inner join contato
+on (pessoa.ID_Pssa = contato.ID_pssa)
+
+
+
+select pessoa.nome, paciente.Plano_Sd from pessoa
+inner join paciente
+on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
