@@ -136,7 +136,7 @@ where Logradouro = 'rua'
 
 select avg(horario) from consultas
 
-
+![me](https://user-images.githubusercontent.com/31863030/33742014-aa9821e4-db8d-11e7-9f17-4e5ca67b6d70.png)
 
 select sum(Número) from endereço 
 
