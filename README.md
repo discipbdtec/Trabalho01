@@ -211,7 +211,7 @@ select pessoa.nome, contato.descrição from pessoa left outer join contato on (
 
 select pessoa.nome, paciente.Plano_Sd from pessoa left outer join paciente on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 
-
+![left2](https://user-images.githubusercontent.com/31863030/33743582-9c04c694-db94-11e7-87e1-8eb6d26d3bde.png)
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
