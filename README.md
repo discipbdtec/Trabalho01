@@ -152,6 +152,9 @@ select * from pessoa where nome like "m%"
 ![lk p](https://user-images.githubusercontent.com/31863030/33742351-1af30c5a-db8f-11e7-8623-163f3deae2cb.png)
 
 select cep from endereço where logradouro like "r%"
+
+![lk cep](https://user-images.githubusercontent.com/31863030/33742371-32ed8d3a-db8f-11e7-9e1a-dfec309241de.png)
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
