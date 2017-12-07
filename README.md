@@ -43,7 +43,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 
-   
 
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Sergio Vago e Isabela de assis]
@@ -69,8 +68,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 ### 6	MODELO LÓGICO<br>
 
 ![dfdfsdfsdf](https://user-images.githubusercontent.com/26657007/33447944-d6e905ee-d5eb-11e7-8c1a-d9819ad74d6d.png)
-
-
 
 
 
@@ -127,11 +124,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 
-
-
 #####################################################
-
-
 
 
 
@@ -147,8 +140,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         Houve também dificuldade para fazer as heranças, dividir em pessoa fisica e juridica.
         Dificuldade para rodar o físico no SQL.
         Vários problemas em relação ter que mudar uma coisa no modelo conceitual e ter que mudar todo trabalho, ou mudar o fisico e             refazer tod o trabalho também.
-        
-### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
 
