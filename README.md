@@ -207,6 +207,11 @@ select * from endereço group by número
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 select pessoa.nome, contato.descrição from pessoa left outer join contato on (pessoa.ID_Pssa = contato.ID_pssa)
 
+
+
+select pessoa.nome, paciente.Plano_Sd from pessoa left outer join paciente on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
+
+
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
