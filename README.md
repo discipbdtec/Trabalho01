@@ -185,6 +185,9 @@ on (pessoa.ID_Pssa = contato.ID_pssa)
 select pessoa.nome, paciente.Plano_Sd from pessoa
 inner join paciente
 on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
+
+![join3](https://user-images.githubusercontent.com/31863030/33743063-5ac3b2f0-db92-11e7-970c-0788b3525336.png)
+
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
