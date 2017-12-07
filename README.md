@@ -143,7 +143,15 @@ select sum(Número) from endereço
 ![su](https://user-images.githubusercontent.com/31863030/33741966-8b4de49a-db8d-11e7-89c4-688b9bac901a.png)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+select * from médico where Esp like "c%"
 
+
+
+select * from pessoa where nome like "m%"
+
+
+
+select cep from endereço where logradouro like "r%"
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
