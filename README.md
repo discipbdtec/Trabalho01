@@ -30,8 +30,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[agende.pdf](https://github.com/discipbdtec/Trabalho01/files/1338085/agende.pdf)
-
 
 
 ![teste](https://user-images.githubusercontent.com/31417932/30292162-90761878-970b-11e7-9049-ba2c5685ae3a.jpg)
