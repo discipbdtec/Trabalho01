@@ -116,7 +116,18 @@ SELECT * FROM PESSOA
 ![pessoa](https://user-images.githubusercontent.com/31863030/33741384-39a0071a-db8b-11e7-83d3-98c78b7fde70.png)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+select * from Médico
+where Esp = 'cirurgião'
 
+
+
+select * from paciente
+where Plano_SD > 100000;
+
+
+
+select * from endereço 
+where Logradouro = 'rua'
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
