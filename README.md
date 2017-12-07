@@ -199,7 +199,7 @@ select * from endereço group by logradouro
 
 select * from pessoa group by Data_Nsc
 
-
+![group3](https://user-images.githubusercontent.com/31863030/33743367-b0554d0e-db93-11e7-936f-c70220a54844.png)
 
 select * from pessoa group by nome
 select * from endereço group by número
