@@ -156,6 +156,17 @@ select cep from endereço where logradouro like "r%"
 ![lk cep](https://user-images.githubusercontent.com/31863030/33742371-32ed8d3a-db8f-11e7-9e1a-dfec309241de.png)
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+update médico set Esp = 'Cardiologista' where ID_Medic > 1000
+
+update pessoa set login = 'pedrocao' where nome = pedro
+
+update endereço set logradouro = 'rua' where ID_Ende = 102
+
+delete from pessoa where ID_Pssa < 0
+
+delete from endereço where cep < 0
+
+delete from Bairro where ID_Bairro < 0
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 
