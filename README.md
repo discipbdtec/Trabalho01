@@ -76,6 +76,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
+[Trabalho BD.txt](https://github.com/discipbdtec/Trabalho01/files/1540770/Trabalho.BD.txt)
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
