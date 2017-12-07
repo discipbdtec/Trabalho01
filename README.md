@@ -111,6 +111,10 @@ SELECT * FROM MÉDICO
 
 ![medico](https://user-images.githubusercontent.com/31863030/33741305-ec2fb9da-db8a-11e7-8add-11ef1f470918.png)
 
+SELECT * FROM PESSOA
+
+![pessoa](https://user-images.githubusercontent.com/31863030/33741384-39a0071a-db8b-11e7-83d3-98c78b7fde70.png)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 
