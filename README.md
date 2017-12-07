@@ -180,7 +180,7 @@ select pessoa.nome, contato.descrição from pessoa
 inner join contato
 on (pessoa.ID_Pssa = contato.ID_pssa)
 
-
+![join2](https://user-images.githubusercontent.com/31863030/33743040-4106307c-db92-11e7-9e04-eadf9f001bb3.png)
 
 select pessoa.nome, paciente.Plano_Sd from pessoa
 inner join paciente
