@@ -129,6 +129,9 @@ where Plano_SD > 100000;
 select * from endereço 
 where Logradouro = 'rua'
 
+![lo](https://user-images.githubusercontent.com/31863030/33741651-65006d40-db8c-11e7-9dd8-1ca5c9ec1860.png)
+
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
 
