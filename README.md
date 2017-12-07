@@ -140,7 +140,7 @@ select avg(horario) from consultas
 
 select sum(Número) from endereço 
 
-
+![su](https://user-images.githubusercontent.com/31863030/33741966-8b4de49a-db8d-11e7-89c4-688b9bac901a.png)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 
