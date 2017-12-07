@@ -103,13 +103,20 @@ SELECT * FROM ENDEREÇO
 
 ![endereco](https://user-images.githubusercontent.com/31863030/33741189-8731148e-db8a-11e7-9e5c-8b5bf3f50d8d.png)
 
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+SELECT * FROM PACIENTE
+
+![paciente](https://user-images.githubusercontent.com/31863030/33741354-132c7118-db8b-11e7-8f4d-f94d2b2b0b48.png)
 
 SELECT * FROM MÉDICO
 
 ![medico](https://user-images.githubusercontent.com/31863030/33741305-ec2fb9da-db8a-11e7-8add-11ef1f470918.png)
 
+#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+
+
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 
