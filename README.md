@@ -252,7 +252,7 @@ select * from médico where esp in (select esp from médico where esp = 'Fisiote
         Vários problemas de relacionamento de tabelas, principalmente nas de endereço e contato.
         Houve também dificuldade para fazer as heranças, dividir em pessoa fisica e juridica.
         Dificuldade para rodar o físico no SQL.
-        Vários problemas em relação ter que mudar uma coisa no modelo conceitual e ter que mudar todo trabalho, ou mudar o fisico e             refazer tod o trabalho também.
+        Vários problemas em relação ter que mudar uma coisa no modelo conceitual e ter que mudar todo trabalho, ou mudar o fisico e refazer tod o trabalho também.
 
 
 
