@@ -231,7 +231,7 @@ select * from pessoa where sexo in ("masculino")
 
 select * from endereço where logradouro in ('rua')
 
-
+![subconsulta2](https://user-images.githubusercontent.com/31863030/33744942-1a074e76-db9b-11e7-9f27-cd0de1ff68b4.png)
 
 select * from médico where esp in (select esp from médico where esp = 'Fisioterapeuta')
 
