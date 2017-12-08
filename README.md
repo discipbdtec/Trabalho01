@@ -225,6 +225,15 @@ select pessoa.nome, contato.descrição from pessoa right outer join contato on 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+select * from pessoa where sexo in ("masculino")
+
+
+
+select * from endereço where logradouro in ('rua')
+
+
+
+select * from médico where esp in (select esp from médico where esp = 'Fisioterapeuta')
 
 #####################################################
 
