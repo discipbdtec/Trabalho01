@@ -235,6 +235,8 @@ select * from endereço where logradouro in ('rua')
 
 select * from médico where esp in (select esp from médico where esp = 'Fisioterapeuta')
 
+![subconsulta3](https://user-images.githubusercontent.com/31863030/33744958-30e5983c-db9b-11e7-803f-c4343a7042f8.png)
+
 #####################################################
 
 
