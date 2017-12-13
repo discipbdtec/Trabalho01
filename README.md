@@ -358,7 +358,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
-[DB-Apresentaçao.pptx](https://github.com/discipbdtec/Trabalho01/files/1539752/DB-Apresentacao.pptx)
+bd novo.pdf](https://github.com/discipbdtec/Trabalho01/files/1554227/bd.novo.pdf)
 
 
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
