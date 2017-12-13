@@ -48,11 +48,12 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 #### 5.2 DECISÕES DE PROJETO
      
-    Tabela pessoas: Pensamos em coloca-lo para as caracteristicas tanto de medicos quanto clientes se localizarem nele e ter um mais facil acesso.
-    Tabela endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço.
-    Tabela contatos: Optamos por isso devido ao fato de cada pessoa pode ter 1 ou mais contatos, ou seja, facilitaria a vida dela  com isso.
-    Essas decisões foram tomadas com o objetivo de otimizar o banco de dados e deixar-lo melhor para o uso dos Pacientes.
-
+    Tabela Pessoas: Optamos por deixar essa tabela como pai e fazer das tabelas médico, paciente é clinica, herdarem dela algumas caracteristicas, por que ambas as três, tem coisas em comuns.
+    Tabela Endereço: Optamos por colocar um campo multivalorado e composto, pois cada medico e cada clinica tem seu proprio endereço, é também acrescentar tabelas de bairro, cidade e estado, para que não tenha conflito no futuro, pois podem existir vários endereços com mesmo nome ou número ou cidade identicos.
+    Tabela contatos: Optamos por isso devido ao fato de cada pessoa pode ter 1 ou mais contatos, ou seja, facilitaria a vida dela com isso, e a tabela tipo de contato que e a extensão dessa tabela, mas ela só armazena os tipos de cada contato.
+    Tabela Consulta: Optmanos por deixar essa tabela para obter e fornecer o hórario das consultas.
+    
+    
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
     PESSOAS : Tabela que armazena as informações da herança que tanto o paciente quanto o médico poderá ter.
@@ -76,14 +77,14 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
     - Campo Ada: Será utilizado para se obter a área de atuação de cada médico.
    
     CONSULTAS : Tabela que contém as informações necessárias a serem fornecidas sobre cada consulta que será realizada.
-    - Campo Horario: Será utilizado para obter e fornecer o hórario das consultas
+    - Campo Horario: Será utilizado para obter e fornecer o hórario das consultas.
     
     CLINICA : Tabela que armazena as informações relativas a clínica onde o cliente fará sua consulta.
     - Campo ID_Clinica: Será utilizado como identificador de cada Clinica.
     
     CONTATO : Tabela que tem os contatos e está ligada a uma sub tabela que e especifica para tipos de contatos.
-    - Campo ID_Contato:
-    - Campo Descrição:
+    - Campo ID_Contato: Será utilizado como identificador de cada Contato.
+    - Campo Descrição: Será utilizado para poder dar descrisções sobre seu contato
     - Campo ID_Pssa: Só contém nessa tabela para mostrar que cada pessoa pode ter um tipo de contato.
     - Sub tabela TipoCont ( tipo = telefone, email, sinal de fumaça e etc ).
     
