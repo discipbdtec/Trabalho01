@@ -171,10 +171,19 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
     update médico set Esp = 'Cardiologista' where ID_Medic = 45438;
+
+![up ende1](https://user-images.githubusercontent.com/26657007/33916284-29a15398-df8f-11e7-9f88-76d4530b7e8c.png)
+![up ende2](https://user-images.githubusercontent.com/26657007/33916285-29d2bfaa-df8f-11e7-8c45-beef875f2cf3.png)
     
     update paciente set Plano_Sd = '346000' where ID_User = 450445;
 
+![up pct](https://user-images.githubusercontent.com/26657007/33916339-658e348e-df8f-11e7-8c58-fce6fd7111da.png)
+![up pct1](https://user-images.githubusercontent.com/26657007/33916340-65c9b126-df8f-11e7-91a5-581a93ced386.png)
+
     update endereço set Número = '150' where ID_Ende = 100;
+
+![up medi](https://user-images.githubusercontent.com/26657007/33916312-47941a3e-df8f-11e7-9d99-998c2b62a4dc.png)
+![up medi1](https://user-images.githubusercontent.com/26657007/33916313-47c606e8-df8f-11e7-8890-0430ef216eac.png)
 
     delete from paciente where FK_Pessoa_ID_Pssa = 3002 ;
 
