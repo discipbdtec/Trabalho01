@@ -275,17 +275,17 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
     select * from pessoa where sexo in ("masculino")
 
-    ![subconsulta](https://user-images.githubusercontent.com/31863030/33744921-fa21cf64-db9a-11e7-8952-2a11ce72ee24.png)
+![subconsulta](https://user-images.githubusercontent.com/31863030/33744921-fa21cf64-db9a-11e7-8952-2a11ce72ee24.png)
 
     
     select * from endereço where logradouro in ('rua')
 
-    ![subconsulta2](https://user-images.githubusercontent.com/31863030/33744942-1a074e76-db9b-11e7-9f27-cd0de1ff68b4.png)
+![subconsulta2](https://user-images.githubusercontent.com/31863030/33744942-1a074e76-db9b-11e7-9f27-cd0de1ff68b4.png)
 
     
     select * from médico where esp in (select esp from médico where esp = 'Fisioterapeuta')
 
-    ![subconsulta3](https://user-images.githubusercontent.com/31863030/33744958-30e5983c-db9b-11e7-803f-c4343a7042f8.png)
+![subconsulta3](https://user-images.githubusercontent.com/31863030/33744958-30e5983c-db9b-11e7-803f-c4343a7042f8.png)
 
 #####################################################
 
