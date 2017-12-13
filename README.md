@@ -55,13 +55,55 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-    PACIENTE: Tabela que armazena as informações relativas ao cliente.
     PESSOAS : Tabela que armazena as informações da herança que tanto o paciente quanto o médico poderá ter.
+    - Campo ID_Pssa: Será utilizado como identificador de cada pessoa.
+    - Campo Nome: Será utilizado para obter os dados do nome da pessoa.
+    - Campo Login: Será utilizado para obter o login que cada pesssoa irá criar.
+    - Campo Senha: Será utilizado para obter a senha que cada pessoa irá conter para poder usar o aplicativo.
+    - Campo Rg: Será utilizado para obter o rg de cada pessoa.
+    - Campo Cpf: Será utilizado para obter o cpf de cada pessoa .
+    - Campo Sexo: Será utilizado para saber se a pessoa e um homem ou mulher.
+    - Campo Data_Nsc: Será utilizado para obter a data de nascimento da pessoa que irá utilizar o nosso aplicativo.
+    
+    PACIENTE: Tabela que armazena as informações relativas ao cliente.
+    - Campo ID_User: Será utilizado como identificador de cada paciente.
+    - Campo Plano_Sd: Será utilizado para obter o plano e saúde do paciente.
+    
+    MÉDICO : Tabela que contém as informações relativas ao médico.
+    - Campo ID_Medic: Será utilizado como identificador de cada paciente.
+    - Campo Crm: Será utilizado para obter o crm do médico.
+    - Campo Esp: Será utilizado para se obter a especialidade que o médico atua.
+    - Campo Ada: Será utilizado para se obter a área de atuação de cada médico.
+   
     CONSULTAS : Tabela que contém as informações necessárias a serem fornecidas sobre cada consulta que será realizada.
+    - Campo Horario: Será utilizado para obter e fornecer o hórario das consultas
+    
     CLINICA : Tabela que armazena as informações relativas a clínica onde o cliente fará sua consulta.
+    - Campo ID_Clinica: Será utilizado como identificador de cada Clinica.
+    
+    CONTATO : Tabela que tem os contatos e está ligada a uma sub tabela que e especifica para tipos de contatos.
+    - Campo ID_Contato:
+    - Campo Descrição:
+    - Campo ID_Pssa: Só contém nessa tabela para mostrar que cada pessoa pode ter um tipo de contato.
+    - Sub tabela TipoCont ( tipo = telefone, email, sinal de fumaça e etc ).
+    
     ENDEREÇO : Tabela que contém as informações do endereço do médico, do cliente e da clinica.
-    MÉDICO : Tabela que contém as informações relativas ao médico.        
-    CONTATO : Tabela que tem os tipo de contatos ( telefone, email, sinal de fumaça e etc )
+    - Campo ID_Ende: Será utilizado como identificador de cada Endereço.
+    - Campo logradouro: Será utilizado para saber se o endereço se localiza em uma rua, ou avenida e etc.
+    - Campo Número: Será utilizado para obter o número da clinica.
+    - Campo Cep: Será utilizado para obter o número clinica.
+    - Sub tabela Bairro:
+        - Campo ID_Bairro: Será utilizado como identificador de cada Bairro.
+        - Campo Bairro: Será utilizado para obter o Bairro onde se localiza a clinica.
+    - Sub tabela Cidade:
+        - Campo ID_Cidade: Será utilizado como identificador de cada Cidade.
+        - Campo Cidade: Será utilizado para obter o Cidade onde se localiza a clinica.
+     - Sub tabela Estado:
+       - Campo ID_Estado: Será utilizado como identificador de cada Estado.
+       - Campo Estado: Será utilizado para obter o Estado onde se localiza a clinica.
+    
+    
+    
 
 ### 6	MODELO LÓGICO<br>
 
