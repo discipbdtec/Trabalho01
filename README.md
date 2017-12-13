@@ -83,6 +83,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         a) obtenção dos dados:
         
         Dados obtidos atravéz de tabelas de outros bancos com nomes, epecialidade e outros dados. Endereços obtidos no google maps no estado do Espíto Santo
+        
         b) obtenção de códigos reutilizados:
         
         Não teve códigos reutilizados
