@@ -76,7 +76,7 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-[Trabalho BD.txt](https://github.com/discipbdtec/Trabalho01/files/1540770/Trabalho.BD.txt)
+[Insert.txt](https://github.com/discipbdtec/Trabalho01/files/1553757/Insert.txt)
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         
@@ -93,8 +93,11 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
+[Fisíco.txt](https://github.com/discipbdtec/Trabalho01/files/1540543/Fisico.txt)
+
         b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
+[Insert.txt](https://github.com/discipbdtec/Trabalho01/files/1553757/Insert.txt)
+
 
 
         
