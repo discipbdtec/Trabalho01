@@ -187,9 +187,18 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
     delete from paciente where FK_Pessoa_ID_Pssa = 3002 ;
 
+![delpac1](https://user-images.githubusercontent.com/26657007/33916496-4fa30e14-df90-11e7-8905-2f54a654e604.png)
+![delpac2](https://user-images.githubusercontent.com/26657007/33916495-4f73b4a2-df90-11e7-93f7-176bcf9704ba.png)
+
     delete from médico where ID_Medic= 45437;
 
+![delmedic1](https://user-images.githubusercontent.com/26657007/33916535-802c6f3a-df90-11e7-89d9-fb3d4ea35dfb.png)
+![delmedic2](https://user-images.githubusercontent.com/26657007/33916536-805edf9c-df90-11e7-8ef7-7102ca6cea8e.png)
+
     delete from endereço where ID_Ende = 103;
+    
+![delende1](https://user-images.githubusercontent.com/26657007/33916525-70959eca-df90-11e7-870b-7e1bfa166fec.png)
+![delende2](https://user-images.githubusercontent.com/26657007/33916526-70c54d32-df90-11e7-89ba-13ef6a40b2f7.png)
 
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
