@@ -106,19 +106,19 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
     SELECT * FROM ENDEREÇO
 
-    ![endereco](https://user-images.githubusercontent.com/31863030/33741189-8731148e-db8a-11e7-9e5c-8b5bf3f50d8d.png)
+![endereco](https://user-images.githubusercontent.com/31863030/33741189-8731148e-db8a-11e7-9e5c-8b5bf3f50d8d.png)
 
     SELECT * FROM PACIENTE
 
-    ![paciente](https://user-images.githubusercontent.com/31863030/33741354-132c7118-db8b-11e7-8f4d-f94d2b2b0b48.png)
+![paciente](https://user-images.githubusercontent.com/31863030/33741354-132c7118-db8b-11e7-8f4d-f94d2b2b0b48.png)
 
     SELECT * FROM MÉDICO
 
-    ![medico](https://user-images.githubusercontent.com/31863030/33741305-ec2fb9da-db8a-11e7-8add-11ef1f470918.png)
+![medico](https://user-images.githubusercontent.com/31863030/33741305-ec2fb9da-db8a-11e7-8add-11ef1f470918.png)
 
     SELECT * FROM PESSOA
 
-    ![pessoa](https://user-images.githubusercontent.com/31863030/33741384-39a0071a-db8b-11e7-83d3-98c78b7fde70.png)
+![pessoa](https://user-images.githubusercontent.com/31863030/33741384-39a0071a-db8b-11e7-83d3-98c78b7fde70.png)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
@@ -126,43 +126,43 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
     select * from Médico
     where Esp = 'cirurgião'
 
-    ![endereco](https://user-images.githubusercontent.com/31863030/33741738-b1fd2e4e-db8c-11e7-98d8-5797cf58ce3a.png)
+![endereco](https://user-images.githubusercontent.com/31863030/33741738-b1fd2e4e-db8c-11e7-98d8-5797cf58ce3a.png)
 
     select * from paciente
     where Plano_SD > 100000;
 
-    ![pl s](https://user-images.githubusercontent.com/31863030/33741708-8fc57e76-db8c-11e7-8c6f-abbda2cc1e9a.png)
+![pl s](https://user-images.githubusercontent.com/31863030/33741708-8fc57e76-db8c-11e7-8c6f-abbda2cc1e9a.png)
 
     select * from endereço 
     where Logradouro = 'rua'
 
-    ![lo](https://user-images.githubusercontent.com/31863030/33741651-65006d40-db8c-11e7-9dd8-1ca5c9ec1860.png)
+![lo](https://user-images.githubusercontent.com/31863030/33741651-65006d40-db8c-11e7-9dd8-1ca5c9ec1860.png)
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
     select avg(horario) from consultas
 
-    ![me](https://user-images.githubusercontent.com/31863030/33742014-aa9821e4-db8d-11e7-9f17-4e5ca67b6d70.png)
+![me](https://user-images.githubusercontent.com/31863030/33742014-aa9821e4-db8d-11e7-9f17-4e5ca67b6d70.png)
 
     select sum(Número) from endereço 
 
-    ![su](https://user-images.githubusercontent.com/31863030/33741966-8b4de49a-db8d-11e7-89c4-688b9bac901a.png)
+![su](https://user-images.githubusercontent.com/31863030/33741966-8b4de49a-db8d-11e7-89c4-688b9bac901a.png)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 
 
     select * from médico where Esp like "c%"
 
-    ![lk](https://user-images.githubusercontent.com/31863030/33742306-ea853b4c-db8e-11e7-8ca7-a219d95d1b67.png)
+![lk](https://user-images.githubusercontent.com/31863030/33742306-ea853b4c-db8e-11e7-8ca7-a219d95d1b67.png)
 
     select * from pessoa where nome like "m%"
 
-    ![lk p](https://user-images.githubusercontent.com/31863030/33742351-1af30c5a-db8f-11e7-8623-163f3deae2cb.png)
+![lk p](https://user-images.githubusercontent.com/31863030/33742351-1af30c5a-db8f-11e7-8623-163f3deae2cb.png)
 
     select cep from endereço where logradouro like "r%"
 
-    ![lk cep](https://user-images.githubusercontent.com/31863030/33742371-32ed8d3a-db8f-11e7-9e1a-dfec309241de.png)
+![lk cep](https://user-images.githubusercontent.com/31863030/33742371-32ed8d3a-db8f-11e7-9e1a-dfec309241de.png)
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
@@ -187,42 +187,42 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
     inner join médico
     on (pessoa.ID_Pssa = médico.FK_Pessoa_ID_Pssa)
 
-    ![join](https://user-images.githubusercontent.com/31863030/33743010-283b14d6-db92-11e7-84c3-a78ea7d9caee.png)
+![join](https://user-images.githubusercontent.com/31863030/33743010-283b14d6-db92-11e7-84c3-a78ea7d9caee.png)
 
     select pessoa.nome, contato.descrição from pessoa
     inner join contato
     on (pessoa.ID_Pssa = contato.ID_pssa)
 
-    ![join2](https://user-images.githubusercontent.com/31863030/33743040-4106307c-db92-11e7-9e04-eadf9f001bb3.png)
+![join2](https://user-images.githubusercontent.com/31863030/33743040-4106307c-db92-11e7-9e04-eadf9f001bb3.png)
 
     select pessoa.nome, paciente.Plano_Sd from pessoa
     inner join paciente
     on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 
-    ![join3](https://user-images.githubusercontent.com/31863030/33743063-5ac3b2f0-db92-11e7-970c-0788b3525336.png)
+![join3](https://user-images.githubusercontent.com/31863030/33743063-5ac3b2f0-db92-11e7-970c-0788b3525336.png)
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
 
     select * from pessoa group by sexo
 
-    ![group](https://user-images.githubusercontent.com/31863030/33743315-749297b8-db93-11e7-805d-ba94bba79e26.png)
+![group](https://user-images.githubusercontent.com/31863030/33743315-749297b8-db93-11e7-805d-ba94bba79e26.png)
 
     select * from endereço group by logradouro
 
-    ![group2](https://user-images.githubusercontent.com/31863030/33743351-95a2ed54-db93-11e7-8d2f-d53592ad6762.png)
+![group2](https://user-images.githubusercontent.com/31863030/33743351-95a2ed54-db93-11e7-8d2f-d53592ad6762.png)
 
     select * from pessoa group by Data_Nsc
 
-    ![group3](https://user-images.githubusercontent.com/31863030/33743367-b0554d0e-db93-11e7-936f-c70220a54844.png)
+![group3](https://user-images.githubusercontent.com/31863030/33743367-b0554d0e-db93-11e7-936f-c70220a54844.png)
 
     select * from pessoa group by nome;
     
-    ![group by nome](https://user-images.githubusercontent.com/26657007/33915713-eb42b478-df8b-11e7-8c1d-9f3e9d6dc9cc.png)
+![group by nome](https://user-images.githubusercontent.com/26657007/33915713-eb42b478-df8b-11e7-8c1d-9f3e9d6dc9cc.png)
     
     select * from endereço group by número;
     
-    ![group by numero](https://user-images.githubusercontent.com/26657007/33915743-07a2e8f4-df8c-11e7-8438-b7ad82d21946.png)
+![group by numero](https://user-images.githubusercontent.com/26657007/33915743-07a2e8f4-df8c-11e7-8438-b7ad82d21946.png)
     
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
@@ -230,22 +230,22 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
     select pessoa.nome, contato.descrição from pessoa left outer join contato on (pessoa.ID_Pssa = contato.ID_pssa)
 
-    ![left](https://user-images.githubusercontent.com/31863030/33743560-7ce8ab04-db94-11e7-9557-c8b4f4cc743c.png)
+![left](https://user-images.githubusercontent.com/31863030/33743560-7ce8ab04-db94-11e7-9557-c8b4f4cc743c.png)
 
     
     select pessoa.nome, paciente.Plano_Sd from pessoa left outer join paciente on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 
-    ![left2](https://user-images.githubusercontent.com/31863030/33743582-9c04c694-db94-11e7-87e1-8eb6d26d3bde.png)
+![left2](https://user-images.githubusercontent.com/31863030/33743582-9c04c694-db94-11e7-87e1-8eb6d26d3bde.png)
 
     
     select pessoa.nome, paciente.Plano_Sd from pessoa right outer join paciente on (pessoa.ID_pssa = paciente.FK_Pessoa_ID_pssa)
 
-    ![right](https://user-images.githubusercontent.com/31863030/33743672-fb7ab75a-db94-11e7-9034-b42f438a096e.png)
+![right](https://user-images.githubusercontent.com/31863030/33743672-fb7ab75a-db94-11e7-9034-b42f438a096e.png)
 
     
     select pessoa.nome, contato.descrição from pessoa right outer join contato on (pessoa.ID_Pssa = contato.ID_pssa)
 
-    ![right2](https://user-images.githubusercontent.com/31863030/33743715-1ffeebc8-db95-11e7-9154-f6cbfa9b530f.png)
+![right2](https://user-images.githubusercontent.com/31863030/33743715-1ffeebc8-db95-11e7-9154-f6cbfa9b530f.png)
 
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
@@ -254,19 +254,19 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
     select count(*) as usuarios from paciente;
     select * from usuarios;
     
-    ![user](https://user-images.githubusercontent.com/26657007/33915837-a6878c0e-df8c-11e7-8337-4ea3635d9357.png)
+![user](https://user-images.githubusercontent.com/26657007/33915837-a6878c0e-df8c-11e7-8337-4ea3635d9357.png)
     
     create view clientesTotal as
     select count(*) as clientesTotal from pessoa;
     select * from clientesTotal;
     
-    ![clientes](https://user-images.githubusercontent.com/26657007/33915835-a60718bc-df8c-11e7-9e48-e2d5f32d93fa.png)
+![clientes](https://user-images.githubusercontent.com/26657007/33915835-a60718bc-df8c-11e7-9e48-e2d5f32d93fa.png)
 
     create view EndTote as
     select count(*) as EndTote from endereço;
     select * from EndTote;
 
-    ![ende](https://user-images.githubusercontent.com/26657007/33915836-a63e2fd2-df8c-11e7-972b-838ee8beac5d.png)
+![ende](https://user-images.githubusercontent.com/26657007/33915836-a63e2fd2-df8c-11e7-972b-838ee8beac5d.png)
 
 
 
