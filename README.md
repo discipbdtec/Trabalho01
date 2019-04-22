@@ -3,7 +3,7 @@
 # Sumário
 
 ### 1.COMPONENTES<br>
-João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
+João Pedro Ferreira Silva ( Joaopedro.ferreirasilva@outlook.com) <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
