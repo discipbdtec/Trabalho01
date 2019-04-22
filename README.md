@@ -4,7 +4,6 @@
 
 ### 1.COMPONENTES<br>
 João Pedro Fs ( jj.pedrinho@hotmail.com) <br>
-Lucas Calazans ( lucascalazans04@hotmail.com) <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
@@ -40,11 +39,6 @@ Os médicos também deverão ser cadastrados no , sistema. Devendo inserir ender
 
 
 
-
-
-#### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Sergio Vago e Isabela de assis]
-    [Grupo02]: [Ramon e Jean]
 
 #### 5.2 DECISÕES DE PROJETO
      
@@ -374,8 +368,6 @@ bd novo.pdf](https://github.com/discipbdtec/Trabalho01/files/1554227/bd.novo.pdf
 
 #####################################################
 
-
-###  Trabalho de APS
 
 ### Requisitos
 
